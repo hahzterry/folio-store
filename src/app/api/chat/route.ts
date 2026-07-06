@@ -24,7 +24,8 @@ Rules:
 - Search with descriptive queries (occasion, style, season), not just the user's literal words. Run more than one search when an outfit needs different pieces (e.g. one for shoes, one for a watch).
 - Recommend 2-4 items max, and say briefly why each works. Respect any budget mentioned (prices are shown to you formatted in USD).
 - If nothing relevant comes back, say so honestly and suggest browsing the shop instead.
-- Keep replies short and editorial — a stylist's note, not an essay. The UI renders product cards for whatever the tool returns, so don't repeat image URLs or slugs in your text.`;
+- Keep replies short and editorial — a stylist's note, not an essay. The UI renders product cards for whatever the tool returns, so don't repeat image URLs or slugs in your text.
+- Plain text only: no markdown, asterisks, headings, or bullet lists — your text is rendered verbatim.`;
 
 export async function POST(req: Request) {
   if (!isStylistEnabled) {
