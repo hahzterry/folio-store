@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Search, Loader2, ArrowRight } from "lucide-react";
+import { Search, Loader2, ArrowRight, Sparkles } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -13,6 +13,7 @@ import { ProductImage } from "@/components/product-image";
 import { useSearch } from "@/hooks/use-products";
 import { formatPrice } from "@/lib/utils";
 import { CATEGORIES } from "@/lib/data/products";
+import type { SemanticMatch } from "@/lib/semantic-search";
 
 export function SearchDialog() {
   const [open, setOpen] = useState(false);
@@ -47,6 +48,42 @@ export function SearchDialog() {
 
   const { data: results = [], isFetching } = useSearch(debounced);
   const hasQuery = debounced.trim().length >= 2;
+
+  // "Vibe" results: meaning-based matches from the vector backend. Fetched for
+  // descriptive queries (3+ words) or when keyword search comes up empty, and
+  // deduped against the keyword results.
+  const [vibe, setVibe] = useState<SemanticMatch[]>([]);
+  const [vibeLoading, setVibeLoading] = useState(false);
+  const wantVibe =
+    hasQuery &&
+    !isFetching &&
+    (debounced.trim().split(/\s+/).length >= 3 || results.length === 0);
+
+  useEffect(() => {
+    if (!wantVibe) {
+      setVibe([]);
+      return;
+    }
+    let cancelled = false;
+    setVibeLoading(true);
+    fetch(`/api/search/semantic?q=${encodeURIComponent(debounced)}`)
+      .then((r) => (r.ok ? r.json() : { results: [] }))
+      .then((d: { results?: SemanticMatch[] }) => {
+        if (!cancelled) setVibe(d.results ?? []);
+      })
+      .catch(() => {
+        if (!cancelled) setVibe([]);
+      })
+      .finally(() => {
+        if (!cancelled) setVibeLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [wantVibe, debounced]);
+
+  const fuzzySlugs = new Set(results.map((p) => p.slug));
+  const vibeResults = vibe.filter((v) => !fuzzySlugs.has(v.slug));
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
@@ -97,11 +134,15 @@ export function SearchDialog() {
             </div>
           )}
 
-          {hasQuery && results.length === 0 && !isFetching && (
-            <p className="p-6 text-center text-sm text-muted-foreground">
-              No results for &ldquo;{debounced}&rdquo;.
-            </p>
-          )}
+          {hasQuery &&
+            results.length === 0 &&
+            !isFetching &&
+            !vibeLoading &&
+            vibeResults.length === 0 && (
+              <p className="p-6 text-center text-sm text-muted-foreground">
+                No results for &ldquo;{debounced}&rdquo;.
+              </p>
+            )}
 
           {hasQuery && results.length > 0 && (
             <ul>
@@ -146,6 +187,46 @@ export function SearchDialog() {
                 </li>
               )}
             </ul>
+          )}
+
+          {hasQuery && (vibeLoading || vibeResults.length > 0) && (
+            <div className="p-3 pt-2">
+              <p className="flex items-center gap-1.5 px-1 pb-2 text-xs uppercase tracking-widest text-muted-foreground">
+                <Sparkles className="h-3 w-3" />
+                By vibe
+                {vibeLoading && <Loader2 className="h-3 w-3 animate-spin" />}
+              </p>
+              <ul>
+                {vibeResults.slice(0, 4).map((p) => (
+                  <li key={p.id}>
+                    <Link
+                      href={`/shop/${p.slug}`}
+                      onClick={() => setOpen(false)}
+                      className="flex items-center gap-3 rounded-none px-3 py-2 transition-colors hover:bg-accent"
+                    >
+                      <div className="relative h-14 w-11 shrink-0 overflow-hidden bg-muted">
+                        <ProductImage
+                          src={p.images[0]}
+                          alt={p.name}
+                          fill
+                          sizes="44px"
+                          className="object-cover"
+                        />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <p className="truncate text-sm">{p.name}</p>
+                        <p className="text-xs uppercase tracking-widest text-muted-foreground">
+                          {p.brand ?? p.collection}
+                        </p>
+                      </div>
+                      <span className="shrink-0 text-sm tabular-nums">
+                        {formatPrice(p.price)}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
         </div>
       </DialogContent>
