@@ -10,7 +10,8 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
 import { QueryProvider } from "@/components/query-provider";
-import { appUrl } from "@/lib/env";
+import { Stylist } from "@/components/stylist";
+import { appUrl, isStylistEnabled } from "@/lib/env";
 
 const sans = Inter({
   subsets: ["latin"],
@@ -76,6 +77,7 @@ export default function RootLayout({
             <main>{children}</main>
             <Footer />
             <Toaster position="bottom-right" />
+            {isStylistEnabled && <Stylist />}
           </QueryProvider>
         </ThemeProvider>
         <Analytics />

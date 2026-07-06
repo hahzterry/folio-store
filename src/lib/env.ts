@@ -26,6 +26,8 @@ const schema = z.object({
   NEXT_PUBLIC_OAUTH_GOOGLE: z.string().optional(),
   // Comma-separated admin emails granted access to /admin (server-only).
   ADMIN_EMAILS: z.string().optional(),
+  // Vercel AI Gateway key — enables the AI stylist chat (server-only).
+  AI_GATEWAY_API_KEY: z.string().optional(),
   // App
   NEXT_PUBLIC_APP_URL: optionalUrl,
 });
@@ -42,6 +44,7 @@ const parsed = schema.safeParse({
   STRIPE_WEBHOOK_SECRET: process.env.STRIPE_WEBHOOK_SECRET,
   NEXT_PUBLIC_OAUTH_GOOGLE: process.env.NEXT_PUBLIC_OAUTH_GOOGLE,
   ADMIN_EMAILS: process.env.ADMIN_EMAILS,
+  AI_GATEWAY_API_KEY: process.env.AI_GATEWAY_API_KEY,
   NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
 });
 
@@ -62,6 +65,7 @@ export const isSupabaseConfigured = Boolean(
 export const isStripeConfigured = Boolean(env.STRIPE_SECRET_KEY);
 export const isDatabaseConfigured = Boolean(env.DATABASE_URL);
 export const isGoogleOAuthEnabled = env.NEXT_PUBLIC_OAUTH_GOOGLE === "true";
+export const isStylistEnabled = Boolean(env.AI_GATEWAY_API_KEY);
 
 export const appUrl = env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
