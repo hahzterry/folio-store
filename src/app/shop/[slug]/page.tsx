@@ -26,7 +26,8 @@ export async function generateMetadata({
     openGraph: {
       title: product.name,
       description: product.description,
-      images: product.images.slice(0, 1),
+      // og:image comes from the opengraph-image.tsx file convention — a
+      // branded per-product card rather than the raw photo.
     },
   };
 }
