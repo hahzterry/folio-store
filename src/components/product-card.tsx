@@ -1,4 +1,4 @@
-import { Link } from "next-view-transitions";
+import Link from "next/link";
 import { Star } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ProductImage } from "@/components/product-image";
@@ -7,28 +7,14 @@ import { QuickView } from "@/components/quick-view";
 import { formatPrice } from "@/lib/utils";
 import type { Product } from "@/types";
 
-export function ProductCard({
-  product,
-  morph = false,
-}: {
-  product: Product;
-  /** Tag the image for a view-transition morph into the PDP hero. Enable only
-   *  where each product renders once per page (duplicate names skip the
-   *  transition). */
-  morph?: boolean;
-}) {
+export function ProductCard({ product }: { product: Product }) {
   const onSale = !!product.compareAtPrice;
   const soldOut = product.inStock === false || product.stock === 0;
   const href = `/shop/${product.slug}`;
 
   return (
     <div className="group flex flex-col">
-      <div
-        className="relative aspect-[3/4] overflow-hidden bg-muted"
-        style={
-          morph ? { viewTransitionName: `product-${product.slug}` } : undefined
-        }
-      >
+      <div className="relative aspect-[3/4] overflow-hidden bg-muted">
         {/* Clickable image (separate from the overlay controls so we don't nest
             interactive elements inside a link). */}
         <Link

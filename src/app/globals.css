@@ -74,17 +74,3 @@
     scrollbar-width: none;
   }
 }
-
-/* View transitions: keep the product-card -> PDP morph snappy, and disable
-   the animations entirely for users who prefer reduced motion. */
-::view-transition-group(*) {
-  animation-duration: 0.28s;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  ::view-transition-group(*),
-  ::view-transition-old(*),
-  ::view-transition-new(*) {
-    animation: none !important;
-  }
-}

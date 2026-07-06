@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, Cormorant_Garamond } from "next/font/google";
-import { ViewTransitions } from "next-view-transitions";
 import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -65,27 +64,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ViewTransitions>
-      <html
-        lang="en"
-        suppressHydrationWarning
-        data-scroll-behavior="smooth"
-        className={`${sans.variable} ${serif.variable}`}
-      >
-        <body className="min-h-dvh font-sans">
-          <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-            <QueryProvider>
-              <Header />
-              <main>{children}</main>
-              <Footer />
-              <Toaster position="bottom-right" />
-              {isStylistEnabled && <Stylist />}
-            </QueryProvider>
-          </ThemeProvider>
-          <Analytics />
-          <SpeedInsights />
-        </body>
-      </html>
-    </ViewTransitions>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      data-scroll-behavior="smooth"
+      className={`${sans.variable} ${serif.variable}`}
+    >
+      <body className="min-h-dvh font-sans">
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+          <QueryProvider>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+            <Toaster position="bottom-right" />
+            {isStylistEnabled && <Stylist />}
+          </QueryProvider>
+        </ThemeProvider>
+        <Analytics />
+        <SpeedInsights />
+      </body>
+    </html>
   );
 }

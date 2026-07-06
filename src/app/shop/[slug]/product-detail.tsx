@@ -64,10 +64,7 @@ export function ProductDetail({ product }: { product: Product }) {
     <section className="container grid gap-10 pb-16 pt-4 lg:grid-cols-2 lg:gap-16">
       {/* Gallery */}
       <div>
-        <div
-          className="relative aspect-[4/5] overflow-hidden bg-muted"
-          style={{ viewTransitionName: `product-${product.slug}` }}
-        >
+        <div className="relative aspect-[4/5] overflow-hidden bg-muted">
           <ProductImage
             src={product.images[activeImage]}
             alt={product.name}
