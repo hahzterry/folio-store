@@ -4,9 +4,12 @@ import type { Product } from "@/types";
 export function ProductGrid({
   products,
   query,
+  morph = false,
 }: {
   products: Product[];
   query?: string;
+  /** Enable view-transition morphs into the PDP (see ProductCard). */
+  morph?: boolean;
 }) {
   if (products.length === 0) {
     return (
@@ -23,7 +26,7 @@ export function ProductGrid({
   return (
     <div className="grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
       {products.map((p) => (
-        <ProductCard key={p.id} product={p} />
+        <ProductCard key={p.id} product={p} morph={morph} />
       ))}
     </div>
   );

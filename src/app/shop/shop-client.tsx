@@ -431,7 +431,11 @@ export function ShopClient({ products }: { products: Product[] }) {
               </SelectContent>
             </Select>
           </div>
-          <ProductGrid products={filtered.slice(0, visible)} query={query} />
+          <ProductGrid
+            products={filtered.slice(0, visible)}
+            query={query}
+            morph
+          />
           {visible < filtered.length && (
             <div className="mt-12 flex flex-col items-center gap-3">
               <p className="text-xs uppercase tracking-widest text-muted-foreground">
