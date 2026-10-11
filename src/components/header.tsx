@@ -74,7 +74,7 @@ export function Header() {
             className="wordmark text-lg md:text-xl"
             aria-label="FOLIO home"
           >
-            FOLIO
+            VINTATE
           </Link>
 
           <div className="flex flex-1 items-center justify-end gap-1">
