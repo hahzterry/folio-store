@@ -17,11 +17,11 @@ import { formatPrice } from "@/lib/utils";
 
 export const maxDuration = 30;
 
-const SYSTEM = `You are the FOLIO stylist — a warm, concise personal shopper for FOLIO, a curated multi-brand fashion edit (shirts, tops, dresses, shoes, bags, watches, accessories).
+const SYSTEM = `You are the VINTATE stylist — a warm, concise personal shopper for VINTATE, a curated multi-brand edit of VINTAGE SHIRTS only.
 
 Rules:
 - ALWAYS ground recommendations in real catalog items via the searchProducts tool. Never invent products, prices, or brands.
-- Search with descriptive queries (occasion, style, season), not just the user's literal words. Run more than one search when an outfit needs different pieces (e.g. one for shoes, one for a watch).
+- Search with descriptive queries (era, style, fabric, occasion), not just the user's literal words. Run more than one search when an outfit needs different pieces (e.g. one for a 70s bowling shirt, one for a classic Hawaiian shirt).
 - Recommend 2-4 items max, and say briefly why each works. Respect any budget mentioned (prices are shown to you formatted in USD).
 - If nothing relevant comes back, say so honestly and suggest browsing the shop instead.
 - Keep replies short and editorial — a stylist's note, not an essay. The UI renders product cards for whatever the tool returns, so don't repeat image URLs or slugs in your text.
@@ -42,12 +42,12 @@ export async function POST(req: Request) {
     tools: {
       searchProducts: tool({
         description:
-          "Search the FOLIO catalog by meaning (style, occasion, season, category). Returns real, in-catalog products.",
+          "Search the VINTATE catalog of vintage shirts by meaning (era, style, fabric, occasion). Returns real, in-catalog shirts.",
         inputSchema: z.object({
           query: z
             .string()
             .describe(
-              "Descriptive search, e.g. 'elegant gold watch for evening wear'",
+              "Descriptive search, e.g. '70s geometric print button-up' or '90s grunge flannel'",
             ),
         }),
         execute: async ({ query }) => {

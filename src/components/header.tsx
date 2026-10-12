@@ -14,10 +14,6 @@ import { cn } from "@/lib/utils";
 const NAV = [
   { href: "/shop", label: "Shop" },
   { href: "/shop?category=shirts", label: "Shirts" },
-  { href: "/shop?category=dresses", label: "Dresses" },
-  { href: "/shop?category=shoes", label: "Shoes" },
-  { href: "/shop?category=watches", label: "Watches" },
-  { href: "/shop?category=accessories", label: "Accessories" },
 ];
 
 export function Header() {

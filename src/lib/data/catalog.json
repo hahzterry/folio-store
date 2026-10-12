@@ -782,44 +782,48 @@
   },
   {
     "id": "p_013",
-    "slug": "rolex-cellini-date-black-dial",
-    "name": "Rolex Cellini Date Black Dial",
-    "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+    "slug": "vintage-salt-n-pepa-rap-tee-white",
+    "name": "Vintage Salt-N-Pepa Rap Tee – 90s Hip-Hop White T-Shirt – Rare Retro Female Rap Legend Graphic",
+    "description": "Own a piece of hip-hop history. This vintage Salt-N-Pepa graphic tee is the ultimate nod to the golden era of female rap. Printed on a classic white cotton t-shirt, the front features a vibrant, high-contrast image of Salt, Pepa, and DJ Spinderella rocking their iconic 'Idol Maker' leather jackets — the very same style made famous in their legendary 'Push It' era. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
     "details": [
-      "Brand: Rolex",
-      "watches, luxury watches",
-      "40 in stock",
+      "Brand: Salt-N-Pepa",
+      "vintage tees, rap tees, 90s streetwear",
+      "1 in stock",
       "Ships in 2–4 business days"
     ],
-    "price": 820079,
-    "compareAtPrice": 899999,
-    "category": "watches",
-    "collection": "Signature",
+    "price": 75,
+    "compareAtPrice": 120,
+    "category": "shirts",
+    "collection": "Vintage",
     "sizes": [
       "M"
     ],
     "colors": [
       {
-        "name": "Black",
-        "hex": "#1a1a1a"
+        "name": "White",
+        "hex": "#f5f5f5"
       }
     ],
     "images": [
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/3.webp"
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-1.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-14.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-13.jpeg"
     ],
     "tags": [
-      "watches",
-      "luxury watches"
+      "vintage",
+      "rap tee",
+      "90s",
+      "hip-hop",
+      "salt-n-pepa",
+      "streetwear"
     ],
     "inStock": true,
-    "rating": 4.97,
+    "rating": 4.99,
     "reviewCount": 3,
     "reviews": [
       {
         "rating": 3,
-        "comment": "Not worth the price!",
+        "comment": "Definitely worth the price!",
         "reviewerName": "Owen Sullivan",
         "date": "2025-04-30T09:41:02.053Z"
       },
@@ -831,15 +835,15 @@
       },
       {
         "rating": 1,
-        "comment": "Would not buy again!",
+        "comment": "I got compliements everywhere I go with it on",
         "reviewerName": "Adrian Flores",
         "date": "2025-04-30T09:41:02.053Z"
       }
     ],
-    "brand": "Rolex",
-    "stock": 40,
+    "brand": "Salt-N-Pepa",
+    "stock": 1,
     "featured": true,
-    "newArrival": false
+    "newArrival": true
   },
   {
     "id": "p_014",

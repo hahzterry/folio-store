@@ -95,7 +95,7 @@ export function Stylist() {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <button
-          aria-label="Ask the FOLIO stylist"
+          aria-label="Ask the VINTATE stylist"
           className="fixed bottom-6 left-6 z-40 flex items-center gap-2 border border-foreground bg-background px-4 py-3 text-xs uppercase tracking-widest shadow-lg transition-colors hover:bg-foreground hover:text-background"
         >
           <Sparkles className="h-4 w-4" />
