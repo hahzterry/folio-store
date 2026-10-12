@@ -791,12 +791,12 @@
       "1 in stock",
       "Ships in 2–4 business days"
     ],
-    "price": 75000,
-    "compareAtPrice": 120000,
+    "price": 25000,
+    "compareAtPrice": 35000,
     "category": "shirts",
     "collection": "Vintage",
     "sizes": [
-      "M"
+      "SM"
     ],
     "colors": [
       {
