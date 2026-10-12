@@ -845,46 +845,50 @@
     "featured": true,
     "newArrival": true
   },
-  {
+    {
     "id": "p_014",
-    "slug": "rolex-cellini-moonphase",
-    "name": "Rolex Cellini Moonphase",
-    "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+    "slug": "vintage-outkast-south-got-something-to-say-rap-tee-blue",
+    "name": "Vintage Outkast \"The South Got Something To Say\" Rap T-shirt",
+    "description": "The South got something to say — and this tee says it loud. This vintage Outkast graphic tee is a true piece of Southern hip-hop history. Printed on a classic blue cotton t-shirt, the front features a vibrant, high-contrast image of André 3000 and Big Boi with the iconic phrase 'The South Got Something To Say' — a direct nod to André 3000's legendary 1995 Source Awards speech that helped put Atlanta on the map. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
     "details": [
-      "Brand: Rolex",
-      "watches, luxury watches",
-      "36 in stock",
+      "Brand: Outkast",
+      "vintage tees, rap tees, 90s streetwear",
+      "1 in stock",
       "Ships in 2–4 business days"
     ],
-    "price": 1072239,
-    "compareAtPrice": 1299999,
-    "category": "watches",
-    "collection": "Signature",
+    "price": 4500,
+    "compareAtPrice": 6500,
+    "category": "shirts",
+    "collection": "Vintage",
     "sizes": [
-      "M"
+      "S"
     ],
     "colors": [
       {
-        "name": "As shown",
-        "hex": "#9aa0a6"
+        "name": "Blue",
+        "hex": "#3a6ea5"
       }
     ],
     "images": [
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/3.webp"
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-6.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-19.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-18.jpeg"
     ],
     "tags": [
-      "watches",
-      "luxury watches"
+      "vintage",
+      "rap tee",
+      "90s",
+      "hip-hop",
+      "outkast",
+      "streetwear"
     ],
     "inStock": true,
-    "rating": 2.58,
+    "rating": 4.98,
     "reviewCount": 3,
     "reviews": [
       {
         "rating": 3,
-        "comment": "Poor quality!",
+        "comment": "Great quality!",
         "reviewerName": "Ella Adams",
         "date": "2025-04-30T09:41:02.053Z"
       },
@@ -901,128 +905,138 @@
         "date": "2025-04-30T09:41:02.053Z"
       }
     ],
-    "brand": "Rolex",
-    "stock": 36,
+    "brand": "Outkast",
+    "stock": 1,
     "featured": false,
-    "newArrival": false
+    "newArrival": true
   },
-  {
+    {
     "id": "p_015",
-    "slug": "rolex-datejust",
-    "name": "Rolex Datejust",
-    "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+    "slug": "vintage-naughty-by-nature-rap-tee-white",
+    "name": "Vintage Naughty by Nature Rap T-Shirt",
+    "description": "Hip-hop hooray — this tee is a genuine piece of 90s rap history. This vintage Naughty by Nature graphic tee features a bold, high-contrast print of Treach, Vin Rock, and DJ Kay Gee in their signature streetwear, with a red brushstroke backdrop and a baseball bat graphic anchoring the bottom. Named after the New Jersey neighborhood they grew up in, Naughty by Nature defined East Coast hip-hop in the early 90s with anthems like 'O.P.P.' and 'Hip Hop Hooray.' A true vintage piece with the perfect worn-in softness that only comes with time.",
     "details": [
-      "Brand: Rolex",
-      "watches, luxury watches",
-      "86 in stock",
+      "Brand: Naughty by Nature",
+      "vintage tees, rap tees, 90s streetwear",
+      "1 in stock",
       "Ships in 2–4 business days"
     ],
-    "price": 1099999,
-    "category": "watches",
-    "collection": "Signature",
+    "price": 4500,
+    "compareAtPrice": 5500,
+    "category": "shirts",
+    "collection": "Vintage",
     "sizes": [
-      "M"
+      "S"
     ],
     "colors": [
       {
-        "name": "As shown",
-        "hex": "#9aa0a6"
+        "name": "White",
+        "hex": "#f5f5f5"
       }
     ],
     "images": [
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/3.webp"
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-9.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-24.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-22.jpeg"
     ],
     "tags": [
-      "watches",
-      "luxury watches"
+      "vintage",
+      "rap tee",
+      "90s",
+      "hip-hop",
+      "naughty by nature",
+      "streetwear"
     ],
     "inStock": true,
-    "rating": 3.66,
+    "rating": 4.67,
     "reviewCount": 3,
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Fast shipping!",
+        "rating": 5,
+        "comment": "Graphic is incredibly clean for its age. Fits perfectly and the vintage fade gives it real character!",
         "reviewerName": "Alice Smith",
         "date": "2025-04-30T09:41:02.053Z"
       },
       {
         "rating": 4,
-        "comment": "Very pleased!",
+        "comment": "Super soft and worn-in. A couple of tiny marks but that's expected with a true vintage piece.",
         "reviewerName": "Abigail Rivera",
         "date": "2025-04-30T09:41:02.053Z"
       },
       {
-        "rating": 3,
-        "comment": "Waste of money!",
+        "rating": 5,
+        "comment": "Absolute grail for my 90s rap tee collection. Fast shipping and packaged with care.",
         "reviewerName": "Daniel Cook",
         "date": "2025-04-30T09:41:02.053Z"
       }
     ],
-    "brand": "Rolex",
-    "stock": 86,
+    "brand": "Naughty by Nature",
+    "stock": 1,
     "featured": false,
-    "newArrival": false
+    "newArrival": true
   },
-  {
+    {
     "id": "p_016",
-    "slug": "rolex-submariner-watch",
-    "name": "Rolex Submariner Watch",
-    "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+    "slug": "vintage-beastie-boys-check-your-head-rap-tee-black",
+    "name": "Vintage Beastie Boys \"Check Your Head\" Rap T-Shirt",
+    "description": "Check your head — this tee is a genuine piece of 90s hip-hop history. This vintage Beastie Boys graphic tee features a bold blue print of the trio's name and album title framing a classic black-and-white photo from their 'Check Your Head' era. Released in 1992, the album marked a pivotal shift for the Beastie Boys, blending punk, funk, and jazz into a sound that would define their legacy. A true vintage piece with the perfect worn-in softness that only comes with time.",
     "details": [
-      "Brand: Rolex",
-      "watches, luxury watches",
-      "55 in stock",
+      "Brand: Beastie Boys",
+      "vintage tees, rap tees, 90s streetwear",
+      "1 in stock",
       "Ships in 2–4 business days"
     ],
-    "price": 1399999,
-    "category": "watches",
-    "collection": "Signature",
+    "price": 3500,
+    "compareAtPrice": 4500,
+    "category": "shirts",
+    "collection": "Vintage",
     "sizes": [
       "M"
     ],
     "colors": [
       {
-        "name": "As shown",
-        "hex": "#9aa0a6"
+        "name": "Black",
+        "hex": "#1a1a1a"
       }
     ],
     "images": [
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/3.webp"
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/2003.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-12.jpeg"
     ],
     "tags": [
-      "watches",
-      "luxury watches"
+      "vintage",
+      "rap tee",
+      "90s",
+      "hip-hop",
+      "beastie boys",
+      "streetwear"
     ],
     "inStock": true,
-    "rating": 2.69,
+    "rating": 4.67,
     "reviewCount": 3,
     "reviews": [
       {
-        "rating": 4,
-        "comment": "Great value for money!",
+        "rating": 5,
+        "comment": "Print is crisp and the black tee has that perfect broken-in feel. Exactly as described!",
         "reviewerName": "Luna Perez",
         "date": "2025-04-30T09:41:02.053Z"
       },
       {
         "rating": 5,
-        "comment": "Highly recommended!",
+        "comment": "An absolute must-have for any Beastie Boys fan. Fits true to size and feels amazing.",
         "reviewerName": "Hannah Robinson",
         "date": "2025-04-30T09:41:02.053Z"
       },
       {
-        "rating": 5,
-        "comment": "Fast shipping!",
+        "rating": 4,
+        "comment": "Great vintage condition with only minor fading. Shipping was quick and it was well packaged.",
         "reviewerName": "Aaliyah Hanson",
         "date": "2025-04-30T09:41:02.053Z"
       }
     ],
-    "brand": "Rolex",
-    "stock": 55,
+    "brand": "Beastie Boys",
+    "stock": 1,
     "featured": false,
     "newArrival": true
   },
