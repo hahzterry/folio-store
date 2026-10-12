@@ -114,7 +114,7 @@ export default async function HomePage() {
               Featured
             </p>
             <h2 className="mt-2 font-serif text-3xl md:text-4xl">
-              This season's edit
+              Trending on TikTok
             </h2>
           </div>
           <Link
