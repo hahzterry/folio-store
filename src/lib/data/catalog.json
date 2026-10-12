@@ -1736,65 +1736,69 @@
     "featured": false,
     "newArrival": false
   },
-  {
+    {
     "id": "p_028",
-    "slug": "heshe-women-s-leather-bag",
-    "name": "Heshe Women's Leather Bag",
-    "description": "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. With a timeless design and durable craftsmanship, it's a versatile accessory.",
+    "slug": "vintage-eminem-marshall-mathers-rap-tee-black",
+    "name": "Vintage Eminem \"Marshall Mathers\" Rap T-Shirt",
+    "description": "Guess who's back — this tee is a genuine piece of 2000s hip-hop history. This vintage Eminem graphic tee features a bold print of the rapper crouched in his iconic red jumpsuit and headband, framed by the 'Marshall Mathers' name repeated in a stylized graffiti font. A direct nod to his landmark 2000 album, this piece captures the era that cemented Eminem as one of the best-selling and most influential rappers of all time. A true vintage piece with the perfect worn-in softness that only comes with time.",
     "details": [
-      "Brand: Heshe",
-      "fashion accessories, leather bags",
-      "99 in stock",
+      "Brand: Eminem",
+      "vintage tees, rap tees, 2000s streetwear",
+      "1 in stock",
       "Ships in 2–4 business days"
     ],
-    "price": 12999,
-    "category": "bags",
-    "collection": "Signature",
+    "price": 4500,
+    "compareAtPrice": 5500,
+    "category": "shirts",
+    "collection": "Vintage",
     "sizes": [
       "M"
     ],
     "colors": [
       {
-        "name": "As shown",
-        "hex": "#9aa0a6"
+        "name": "Black",
+        "hex": "#1a1a1a"
       }
     ],
     "images": [
-      "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/3.webp"
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-5.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-17.jpeg"
     ],
     "tags": [
-      "fashion accessories",
-      "leather bags"
+      "vintage",
+      "rap tee",
+      "2000s",
+      "hip-hop",
+      "eminem",
+      "streetwear"
     ],
     "inStock": true,
-    "rating": 4.92,
+    "rating": 4.67,
     "reviewCount": 3,
     "reviews": [
       {
         "rating": 5,
-        "comment": "Excellent quality!",
+        "comment": "Print is incredibly clean for its age and the black tee has that perfect broken-in feel. Exactly as described!",
         "reviewerName": "Hunter Gordon",
         "date": "2025-04-30T09:41:02.054Z"
       },
       {
         "rating": 4,
-        "comment": "Awesome product!",
+        "comment": "Absolute must-have for any Eminem fan. Fits true to size with a great vintage fade.",
         "reviewerName": "Mason Parker",
         "date": "2025-04-30T09:41:02.054Z"
       },
       {
-        "rating": 4,
-        "comment": "Awesome product!",
+        "rating": 5,
+        "comment": "Grail piece for my 2000s rap tee collection. Shipping was fast and it was packaged with care.",
         "reviewerName": "William Gonzalez",
         "date": "2025-04-30T09:41:02.054Z"
       }
     ],
-    "brand": "Heshe",
-    "stock": 99,
+    "brand": "Eminem",
+    "stock": 1,
     "featured": true,
-    "newArrival": false
+    "newArrival": true
   },
   {
     "id": "p_029",
