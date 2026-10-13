@@ -4,32 +4,15 @@
     "slug": "blue-black-check-shirt",
     "name": "Blue & Black Check Shirt",
     "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
-    "details": [
-      "Brand: Fashion Trends",
-      "clothing, men's shirts",
-      "38 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Fashion Trends", "clothing, men's shirts", "38 in stock", "Ships in 2–4 business days"],
     "price": 2539,
     "compareAtPrice": 2999,
     "category": "shirts",
-    "collection": "Everyday",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
+    "collection": "Vintage Rock Tees",
+    "sizes": ["XS", "S", "M", "L", "XL"],
     "colors": [
-      {
-        "name": "Blue",
-        "hex": "#3b5b8c"
-      },
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
+      { "name": "Blue", "hex": "#3b5b8c" },
+      { "name": "Black", "hex": "#1a1a1a" }
     ],
     "images": [
       "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp",
@@ -37,32 +20,14 @@
       "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/3.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/4.webp"
     ],
-    "tags": [
-      "clothing",
-      "men's shirts"
-    ],
+    "tags": ["clothing", "men's shirts"],
     "inStock": true,
     "rating": 3.64,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 1,
-        "comment": "Waste of money!",
-        "reviewerName": "Logan Lee",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Very satisfied!",
-        "reviewerName": "Zachary Lee",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Fast shipping!",
-        "reviewerName": "Aurora Rodriguez",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 1, "comment": "Waste of money!", "reviewerName": "Logan Lee", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 5, "comment": "Very satisfied!", "reviewerName": "Zachary Lee", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 4, "comment": "Fast shipping!", "reviewerName": "Aurora Rodriguez", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Fashion Trends",
     "stock": 38,
@@ -74,60 +39,26 @@
     "slug": "gigabyte-aorus-men-tshirt",
     "name": "Gigabyte Aorus Men Tshirt",
     "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
-    "details": [
-      "Brand: Gigabyte",
-      "clothing, men's t-shirts",
-      "90 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Gigabyte", "clothing, men's t-shirts", "90 in stock", "Ships in 2–4 business days"],
     "price": 2499,
     "category": "shirts",
-    "collection": "Everyday",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
+    "collection": "Vintage Rock Tees",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [{ "name": "As shown", "hex": "#9aa0a6" }],
     "images": [
       "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/4.webp"
     ],
-    "tags": [
-      "clothing",
-      "men's t-shirts"
-    ],
+    "tags": ["clothing", "men's t-shirts"],
     "inStock": true,
     "rating": 3.18,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 5,
-        "comment": "Excellent quality!",
-        "reviewerName": "Amelia Perez",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Awesome product!",
-        "reviewerName": "Tyler Davis",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 1,
-        "comment": "Disappointing product!",
-        "reviewerName": "Harper King",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 5, "comment": "Excellent quality!", "reviewerName": "Amelia Perez", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 5, "comment": "Awesome product!", "reviewerName": "Tyler Davis", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 1, "comment": "Disappointing product!", "reviewerName": "Harper King", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Gigabyte",
     "stock": 90,
@@ -139,61 +70,27 @@
     "slug": "man-plaid-shirt",
     "name": "Man Plaid Shirt",
     "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
-    "details": [
-      "Brand: Classic Wear",
-      "clothing, men's shirts",
-      "82 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Classic Wear", "clothing, men's shirts", "82 in stock", "Ships in 2–4 business days"],
     "price": 2817,
     "compareAtPrice": 3499,
     "category": "shirts",
-    "collection": "Everyday",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
+    "collection": "Vintage Rock Tees",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [{ "name": "As shown", "hex": "#9aa0a6" }],
     "images": [
       "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/4.webp"
     ],
-    "tags": [
-      "clothing",
-      "men's shirts"
-    ],
+    "tags": ["clothing", "men's shirts"],
     "inStock": true,
     "rating": 3.46,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 3,
-        "comment": "Disappointing product!",
-        "reviewerName": "Aubrey Wagner",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Awesome product!",
-        "reviewerName": "Evan Reed",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 2,
-        "comment": "Very disappointed!",
-        "reviewerName": "Evelyn Gonzalez",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 3, "comment": "Disappointing product!", "reviewerName": "Aubrey Wagner", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 4, "comment": "Awesome product!", "reviewerName": "Evan Reed", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 2, "comment": "Very disappointed!", "reviewerName": "Evelyn Gonzalez", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Classic Wear",
     "stock": 82,
@@ -205,60 +102,26 @@
     "slug": "man-short-sleeve-shirt",
     "name": "Man Short Sleeve Shirt",
     "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
-    "details": [
-      "Brand: Casual Comfort",
-      "clothing, men's shirts",
-      "2 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Casual Comfort", "clothing, men's shirts", "2 in stock", "Ships in 2–4 business days"],
     "price": 1999,
     "category": "shirts",
-    "collection": "Everyday",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
+    "collection": "Vintage Rock Tees",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [{ "name": "As shown", "hex": "#9aa0a6" }],
     "images": [
       "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/2.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/3.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/4.webp"
     ],
-    "tags": [
-      "clothing",
-      "men's shirts"
-    ],
+    "tags": ["clothing", "men's shirts"],
     "inStock": true,
     "rating": 2.9,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 5,
-        "comment": "Highly recommended!",
-        "reviewerName": "Charlotte Lopez",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 2,
-        "comment": "Poor quality!",
-        "reviewerName": "Ellie Stewart",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 1,
-        "comment": "Would not recommend!",
-        "reviewerName": "Sadie Morales",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 5, "comment": "Highly recommended!", "reviewerName": "Charlotte Lopez", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 2, "comment": "Poor quality!", "reviewerName": "Ellie Stewart", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 1, "comment": "Would not recommend!", "reviewerName": "Sadie Morales", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Casual Comfort",
     "stock": 2,
@@ -270,513 +133,30 @@
     "slug": "men-check-shirt",
     "name": "Men Check Shirt",
     "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
-    "details": [
-      "Brand: Urban Chic",
-      "clothing, men's shirts",
-      "95 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Urban Chic", "clothing, men's shirts", "95 in stock", "Ships in 2–4 business days"],
     "price": 2480,
     "compareAtPrice": 2799,
     "category": "shirts",
-    "collection": "Everyday",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
+    "collection": "Vintage Rock Tees",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [{ "name": "As shown", "hex": "#9aa0a6" }],
     "images": [
       "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/1.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/2.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/3.webp",
       "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/4.webp"
     ],
-    "tags": [
-      "clothing",
-      "men's shirts"
-    ],
+    "tags": ["clothing", "men's shirts"],
     "inStock": true,
     "rating": 2.72,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 3,
-        "comment": "Would not recommend!",
-        "reviewerName": "Mateo Nguyen",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Fast shipping!",
-        "reviewerName": "Lucas Allen",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 2,
-        "comment": "Very unhappy with my purchase!",
-        "reviewerName": "Henry Adams",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 3, "comment": "Would not recommend!", "reviewerName": "Mateo Nguyen", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 5, "comment": "Fast shipping!", "reviewerName": "Lucas Allen", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 2, "comment": "Very unhappy with my purchase!", "reviewerName": "Henry Adams", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Urban Chic",
     "stock": 95,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_006",
-    "slug": "nike-air-jordan-1-red-and-black",
-    "name": "Nike Air Jordan 1 Red And Black",
-    "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
-    "details": [
-      "Brand: Nike",
-      "footwear, athletic shoes",
-      "7 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 14999,
-    "category": "shoes",
-    "collection": "Signature",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "Red",
-        "hex": "#9c2b2b"
-      },
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "athletic shoes"
-    ],
-    "inStock": true,
-    "rating": 4.77,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Highly impressed!",
-        "reviewerName": "Elena Long",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Very happy with my purchase!",
-        "reviewerName": "Addison Wright",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 1,
-        "comment": "Waste of money!",
-        "reviewerName": "Mason Wright",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
-    ],
-    "brand": "Nike",
-    "stock": 7,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_007",
-    "slug": "nike-baseball-cleats",
-    "name": "Nike Baseball Cleats",
-    "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
-    "details": [
-      "Brand: Nike",
-      "footwear, sports cleats",
-      "12 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 6556,
-    "compareAtPrice": 7999,
-    "category": "shoes",
-    "collection": "Elevated",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "sports cleats"
-    ],
-    "inStock": true,
-    "rating": 3.88,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Would buy again!",
-        "reviewerName": "Aaron Cook",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 2,
-        "comment": "Very disappointed!",
-        "reviewerName": "Noah Lewis",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 3,
-        "comment": "Would not recommend!",
-        "reviewerName": "Michael Johnson",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
-    ],
-    "brand": "Nike",
-    "stock": 12,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_008",
-    "slug": "puma-future-rider-trainers",
-    "name": "Puma Future Rider Trainers",
-    "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
-    "details": [
-      "Brand: Puma",
-      "footwear, casual shoes",
-      "90 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 8999,
-    "category": "shoes",
-    "collection": "Elevated",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "casual shoes"
-    ],
-    "inStock": true,
-    "rating": 4.9,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Highly impressed!",
-        "reviewerName": "Jackson Morales",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 1,
-        "comment": "Very disappointed!",
-        "reviewerName": "Sophia Jones",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Very pleased!",
-        "reviewerName": "Logan Torres",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
-    ],
-    "brand": "Puma",
-    "stock": 90,
-    "featured": true,
-    "newArrival": false
-  },
-  {
-    "id": "p_009",
-    "slug": "sports-sneakers-off-white-red",
-    "name": "Sports Sneakers Off White & Red",
-    "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
-    "details": [
-      "Brand: Off White",
-      "footwear, athletic shoes",
-      "17 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 11999,
-    "category": "shoes",
-    "collection": "Signature",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#f4f4f1"
-      },
-      {
-        "name": "Red",
-        "hex": "#9c2b2b"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "athletic shoes"
-    ],
-    "inStock": true,
-    "rating": 4.77,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "reviewerName": "Sadie Morales",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Fast shipping!",
-        "reviewerName": "Julian Newton",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Awesome product!",
-        "reviewerName": "Logan Lee",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
-    ],
-    "brand": "Off White",
-    "stock": 17,
-    "featured": true,
-    "newArrival": false
-  },
-  {
-    "id": "p_010",
-    "slug": "sports-sneakers-off-white-red-2",
-    "name": "Sports Sneakers Off White Red",
-    "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
-    "details": [
-      "Brand: Off White",
-      "footwear, casual shoes",
-      "62 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 10999,
-    "category": "shoes",
-    "collection": "Signature",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#f4f4f1"
-      },
-      {
-        "name": "Red",
-        "hex": "#9c2b2b"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "casual shoes"
-    ],
-    "inStock": true,
-    "rating": 4.69,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Excellent quality!",
-        "reviewerName": "Aurora Lawson",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Great value for money!",
-        "reviewerName": "Gabriel Mitchell",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 1,
-        "comment": "Not worth the price!",
-        "reviewerName": "Eli Bennett",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
-    ],
-    "brand": "Off White",
-    "stock": 62,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_011",
-    "slug": "brown-leather-belt-watch",
-    "name": "Brown Leather Belt Watch",
-    "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
-    "details": [
-      "Brand: Fashion Timepieces",
-      "watches, leather watches",
-      "32 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 8999,
-    "category": "watches",
-    "collection": "Elevated",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Brown",
-        "hex": "#5b3f2c"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/3.webp"
-    ],
-    "tags": [
-      "watches",
-      "leather watches"
-    ],
-    "inStock": true,
-    "rating": 4.19,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 1,
-        "comment": "Very unhappy with my purchase!",
-        "reviewerName": "James Garcia",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Fast shipping!",
-        "reviewerName": "Avery Barnes",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "reviewerName": "David Martinez",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
-    ],
-    "brand": "Fashion Timepieces",
-    "stock": 32,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_012",
-    "slug": "longines-master-collection",
-    "name": "Longines Master Collection",
-    "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
-    "details": [
-      "Brand: Longines",
-      "watches, luxury watches",
-      "100 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 124139,
-    "compareAtPrice": 149999,
-    "category": "watches",
-    "collection": "Signature",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/3.webp"
-    ],
-    "tags": [
-      "watches",
-      "luxury watches"
-    ],
-    "inStock": true,
-    "rating": 3.87,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Highly impressed!",
-        "reviewerName": "Eli Ward",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 3,
-        "comment": "Very disappointed!",
-        "reviewerName": "Owen Fisher",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Great product!",
-        "reviewerName": "Nathan Reed",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
-    ],
-    "brand": "Longines",
-    "stock": 100,
     "featured": false,
     "newArrival": false
   },
@@ -785,255 +165,119 @@
     "slug": "vintage-salt-n-pepa-rap-tee-white",
     "name": "Vintage Salt-N-Pepa Rap T-shirt",
     "description": "Own a piece of hip-hop history. This vintage Salt-N-Pepa graphic tee is the ultimate nod to the golden era of female rap. Printed on a classic white cotton t-shirt, the front features a vibrant, high-contrast image of Salt, Pepa, and DJ Spinderella rocking their iconic 'Idol Maker' leather jackets — the very same style made famous in their legendary 'Push It' era. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
-    "details": [
-      "Brand: Salt-N-Pepa",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Salt-N-Pepa", "vintage tees, rap tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
     "price": 2500,
     "compareAtPrice": 4500,
     "category": "shirts",
-    "collection": "Vintage",
-    "sizes": [
-      "S"
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#f5f5f5"
-      }
-    ],
+    "collection": "Vintage Hip Hop Tees",
+    "sizes": ["S"],
+    "colors": [{ "name": "White", "hex": "#f5f5f5" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-1.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-14.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-13.jpeg"
     ],
-    "tags": [
-      "vintage",
-      "rap tee",
-      "90s",
-      "hip-hop",
-      "salt-n-pepa",
-      "streetwear"
-    ],
+    "tags": ["vintage", "rap tee", "90s", "hip-hop", "salt-n-pepa", "streetwear"],
     "inStock": true,
     "rating": 4.99,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 3,
-        "comment": "Definitely worth the price!",
-        "reviewerName": "Owen Sullivan",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Very satisfied!",
-        "reviewerName": "Jonathan Pierce",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 1,
-        "comment": "I got compliements everywhere I go with it on",
-        "reviewerName": "Adrian Flores",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 3, "comment": "Definitely worth the price!", "reviewerName": "Owen Sullivan", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 4, "comment": "Very satisfied!", "reviewerName": "Jonathan Pierce", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 1, "comment": "I got compliements everywhere I go with it on", "reviewerName": "Adrian Flores", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Salt-N-Pepa",
     "stock": 1,
     "featured": true,
     "newArrival": true
   },
-    {
+  {
     "id": "p_014",
     "slug": "vintage-outkast-south-got-something-to-say-rap-tee-blue",
     "name": "Vintage Outkast \"The South Got Something To Say\" Rap T-shirt",
     "description": "The South got something to say — and this tee says it loud. This vintage Outkast graphic tee is a true piece of Southern hip-hop history. Printed on a classic blue cotton t-shirt, the front features a vibrant, high-contrast image of André 3000 and Big Boi with the iconic phrase 'The South Got Something To Say' — a direct nod to André 3000's legendary 1995 Source Awards speech that helped put Atlanta on the map. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
-    "details": [
-      "Brand: Outkast",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Outkast", "vintage tees, rap tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
     "price": 4500,
     "compareAtPrice": 6500,
     "category": "shirts",
-    "collection": "Vintage",
-    "sizes": [
-      "S"
-    ],
-    "colors": [
-      {
-        "name": "Blue",
-        "hex": "#3a6ea5"
-      }
-    ],
+    "collection": "Vintage Hip Hop Tees",
+    "sizes": ["S"],
+    "colors": [{ "name": "Blue", "hex": "#3a6ea5" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-6.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-19.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-18.jpeg"
     ],
-    "tags": [
-      "vintage",
-      "rap tee",
-      "90s",
-      "hip-hop",
-      "outkast",
-      "streetwear"
-    ],
+    "tags": ["vintage", "rap tee", "90s", "hip-hop", "outkast", "streetwear"],
     "inStock": true,
     "rating": 4.98,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 3,
-        "comment": "Great quality!",
-        "reviewerName": "Ella Adams",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Very satisfied!",
-        "reviewerName": "Leo Rivera",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Very pleased!",
-        "reviewerName": "Emma Miller",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 3, "comment": "Great quality!", "reviewerName": "Ella Adams", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 5, "comment": "Very satisfied!", "reviewerName": "Leo Rivera", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 4, "comment": "Very pleased!", "reviewerName": "Emma Miller", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Outkast",
     "stock": 1,
     "featured": false,
     "newArrival": true
   },
-    {
+  {
     "id": "p_015",
     "slug": "vintage-naughty-by-nature-rap-tee-white",
     "name": "Vintage Naughty by Nature Rap T-Shirt",
     "description": "Hip-hop hooray — this tee is a genuine piece of 90s rap history. This vintage Naughty by Nature graphic tee features a bold, high-contrast print of Treach, Vin Rock, and DJ Kay Gee in their signature streetwear, with a red brushstroke backdrop and a baseball bat graphic anchoring the bottom. Named after the New Jersey neighborhood they grew up in, Naughty by Nature defined East Coast hip-hop in the early 90s with anthems like 'O.P.P.' and 'Hip Hop Hooray.' A true vintage piece with the perfect worn-in softness that only comes with time.",
-    "details": [
-      "Brand: Naughty by Nature",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Naughty by Nature", "vintage tees, rap tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
     "price": 4500,
     "compareAtPrice": 5500,
     "category": "shirts",
-    "collection": "Vintage",
-    "sizes": [
-      "S"
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#f5f5f5"
-      }
-    ],
+    "collection": "Vintage Hip Hop Tees",
+    "sizes": ["S"],
+    "colors": [{ "name": "White", "hex": "#f5f5f5" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-9.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-24.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-22.jpeg"
     ],
-    "tags": [
-      "vintage",
-      "rap tee",
-      "90s",
-      "hip-hop",
-      "naughty by nature",
-      "streetwear"
-    ],
+    "tags": ["vintage", "rap tee", "90s", "hip-hop", "naughty by nature", "streetwear"],
     "inStock": true,
     "rating": 4.67,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 5,
-        "comment": "Graphic is incredibly clean for its age. Fits perfectly and the vintage fade gives it real character!",
-        "reviewerName": "Alice Smith",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Super soft and worn-in. A couple of tiny marks but that's expected with a true vintage piece.",
-        "reviewerName": "Abigail Rivera",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Absolute grail for my 90s rap tee collection. Fast shipping and packaged with care.",
-        "reviewerName": "Daniel Cook",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 5, "comment": "Graphic is incredibly clean for its age. Fits perfectly and the vintage fade gives it real character!", "reviewerName": "Alice Smith", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 4, "comment": "Super soft and worn-in. A couple of tiny marks but that's expected with a true vintage piece.", "reviewerName": "Abigail Rivera", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 5, "comment": "Absolute grail for my 90s rap tee collection. Fast shipping and packaged with care.", "reviewerName": "Daniel Cook", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Naughty by Nature",
     "stock": 1,
     "featured": false,
     "newArrival": true
   },
-    {
+  {
     "id": "p_016",
     "slug": "vintage-beastie-boys-check-your-head-rap-tee-black",
     "name": "Vintage Beastie Boys \"Check Your Head\" Rap T-Shirt",
     "description": "Check your head — this tee is a genuine piece of 90s hip-hop history. This vintage Beastie Boys graphic tee features a bold blue print of the trio's name and album title framing a classic black-and-white photo from their 'Check Your Head' era. Released in 1992, the album marked a pivotal shift for the Beastie Boys, blending punk, funk, and jazz into a sound that would define their legacy. A true vintage piece with the perfect worn-in softness that only comes with time.",
-    "details": [
-      "Brand: Beastie Boys",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Beastie Boys", "vintage tees, rap tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
     "price": 3500,
     "compareAtPrice": 4500,
     "category": "shirts",
-    "collection": "Vintage",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
+    "collection": "Vintage Hip Hop Tees",
+    "sizes": ["M"],
+    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/2003.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-12.jpeg"
     ],
-    "tags": [
-      "vintage",
-      "rap tee",
-      "90s",
-      "hip-hop",
-      "beastie boys",
-      "streetwear"
-    ],
+    "tags": ["vintage", "rap tee", "90s", "hip-hop", "beastie boys", "streetwear"],
     "inStock": true,
     "rating": 4.67,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 5,
-        "comment": "Print is crisp and the black tee has that perfect broken-in feel. Exactly as described!",
-        "reviewerName": "Luna Perez",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 5,
-        "comment": "An absolute must-have for any Beastie Boys fan. Fits true to size and feels amazing.",
-        "reviewerName": "Hannah Robinson",
-        "date": "2025-04-30T09:41:02.053Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Great vintage condition with only minor fading. Shipping was quick and it was well packaged.",
-        "reviewerName": "Aaliyah Hanson",
-        "date": "2025-04-30T09:41:02.053Z"
-      }
+      { "rating": 5, "comment": "Print is crisp and the black tee has that perfect broken-in feel. Exactly as described!", "reviewerName": "Luna Perez", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 5, "comment": "An absolute must-have for any Beastie Boys fan. Fits true to size and feels amazing.", "reviewerName": "Hannah Robinson", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 4, "comment": "Great vintage condition with only minor fading. Shipping was quick and it was well packaged.", "reviewerName": "Aaliyah Hanson", "date": "2025-04-30T09:41:02.053Z" }
     ],
     "brand": "Beastie Boys",
     "stock": 1,
@@ -1041,248 +285,60 @@
     "newArrival": true
   },
   {
-    "id": "p_017",
-    "slug": "black-sun-glasses",
-    "name": "Black Sun Glasses",
-    "description": "The Black Sun Glasses are a classic and stylish choice, featuring a sleek black frame and tinted lenses. They provide both UV protection and a fashionable look.",
-    "details": [
-      "Brand: Fashion Shades",
-      "eyewear, sunglasses",
-      "60 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2999,
-    "category": "accessories",
-    "collection": "Elevated",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/1.webp",
-      "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/2.webp",
-      "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/3.webp"
-    ],
-    "tags": [
-      "eyewear",
-      "sunglasses"
-    ],
-    "inStock": true,
-    "rating": 4.41,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 3,
-        "comment": "Would not recommend!",
-        "reviewerName": "Jonathan Pierce",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 2,
-        "comment": "Disappointing product!",
-        "reviewerName": "Owen Fisher",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Very happy with my purchase!",
-        "reviewerName": "Samantha Martinez",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Fashion Shades",
-    "stock": 60,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_018",
-    "slug": "classic-sun-glasses",
-    "name": "Classic Sun Glasses",
-    "description": "The Classic Sun Glasses offer a timeless design with a neutral frame and UV-protected lenses. These sunglasses are versatile and suitable for various occasions.",
-    "details": [
-      "Brand: Fashion Shades",
-      "eyewear, sunglasses",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2499,
-    "category": "accessories",
-    "collection": "Everyday",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/1.webp",
-      "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/2.webp",
-      "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/3.webp"
-    ],
-    "tags": [
-      "eyewear",
-      "sunglasses"
-    ],
-    "inStock": true,
-    "rating": 3.86,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Very satisfied!",
-        "reviewerName": "Logan Lee",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 3,
-        "comment": "Very dissatisfied!",
-        "reviewerName": "Jack Ward",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Very happy with my purchase!",
-        "reviewerName": "Julian James",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Fashion Shades",
-    "stock": 1,
-    "featured": false,
-    "newArrival": false
-  },
-    {
     "id": "p_019",
     "slug": "vintage-dmx-rap-tee-black",
     "name": "Vintage DMX Rap Tee – 90s Hip-Hop Black T-Shirt – Rare Retro Ruff Ryders Graphic",
     "description": "Stop, drop, shut 'em down this new to you vintage t-shirt is a genuine piece of 90s hip-hop history. This vintage DMX graphic tee features a high-contrast black-and-white print of the rapper mid-performance, gripping a mic with both hands, framed by the iconic pink gothic 'DMX' logo beneath. One of the most raw and influential voices in East Coast hip-hop, DMX defined the late 90s with anthems like 'Ruff Ryders' Anthem,' 'Party Up,' and 'X Gon' Give It to Ya.' A true vintage piece with the perfect worn-in softness that only comes with time.",
-    "details": [
-      "Brand: DMX",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: DMX", "vintage tees, rap tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
     "price": 3500,
     "compareAtPrice": 4500,
     "category": "shirts",
-    "collection": "Vintage",
-    "sizes": [
-      "XS"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
+    "collection": "Vintage Hip Hop Tees",
+    "sizes": ["XS"],
+    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-8.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/2047.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-23.jpeg"
     ],
-    "tags": [
-      "vintage",
-      "rap tee",
-      "90s",
-      "hip-hop",
-      "dmx",
-      "streetwear"
-    ],
+    "tags": ["vintage", "rap tee", "90s", "hip-hop", "dmx", "streetwear"],
     "inStock": true,
     "rating": 4.67,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 5,
-        "comment": "Graphic is incredibly clean for its age and the black tee has that perfect broken-in feel. Exactly as described!",
-        "reviewerName": "Ava Taylor",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Absolute must-have for any DMX fan. Fits true to size with a great vintage fade.",
-        "reviewerName": "Owen Sullivan",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Grail piece for my 90s rap tee collection. Shipping was fast and it was packaged with care.",
-        "reviewerName": "Victoria McDonald",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
+      { "rating": 5, "comment": "Graphic is incredibly clean for its age and the black tee has that perfect broken-in feel. Exactly as described!", "reviewerName": "Ava Taylor", "date": "2025-04-30T09:41:02.054Z" },
+      { "rating": 4, "comment": "Absolute must-have for any DMX fan. Fits true to size with a great vintage fade.", "reviewerName": "Owen Sullivan", "date": "2025-04-30T09:41:02.054Z" },
+      { "rating": 5, "comment": "Grail piece for my 90s rap tee collection. Shipping was fast and it was packaged with care.", "reviewerName": "Victoria McDonald", "date": "2025-04-30T09:41:02.054Z" }
     ],
     "brand": "DMX",
     "stock": 1,
     "featured": false,
     "newArrival": true
   },
-    {
+  {
     "id": "p_023",
     "slug": "vintage-michael-jackson-beat-it-tee-black",
     "name": "Vintage Michael Jackson \"Beat It\" T-Shirt",
     "description": "Just beat it, in this new to you vintage female t-shirt. This vintage Michael Jackson graphic tee features a bold gold glitter-style 'BEAT IT' print framing the King of Pop himself in his iconic red zipper jacket and silver glove from the legendary 'Beat It' music video. Released in 1983 as part of the record-breaking Thriller album, the song and its video helped define the MTV era and cemented Michael Jackson as the biggest pop star on the planet. A true vintage piece with the perfect worn-in softness that only comes with time.",
-    "details": [
-      "Brand: Michael Jackson",
-      "vintage tees, music tees, 80s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Michael Jackson", "vintage tees, music tees, 80s streetwear", "1 in stock", "Ships in 2–4 business days"],
     "price": 4500,
     "compareAtPrice": 5500,
     "category": "shirts",
-    "collection": "Vintage",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
+    "collection": "Vintage RNB Tees",
+    "sizes": ["M"],
+    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-4.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/1980.jpeg"
     ],
-    "tags": [
-      "vintage",
-      "music tee",
-      "80s",
-      "pop",
-      "michael jackson",
-      "streetwear"
-    ],
+    "tags": ["vintage", "music tee", "80s", "pop", "michael jackson", "streetwear"],
     "inStock": true,
     "rating": 4.97,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 5,
-        "comment": "Graphic is incredibly clean for its age and the black tee has that perfect broken-in feel. Exactly as described!",
-        "reviewerName": "Mason Pearson",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Absolute must-have for any MJ fan. Fits true to size with a great vintage fade.",
-        "reviewerName": "Aubrey Garcia",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Grail piece for my 80s music tee collection. Shipping was fast and it was packaged with care.",
-        "reviewerName": "Charlotte Davis",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
+      { "rating": 5, "comment": "Graphic is incredibly clean for its age and the black tee has that perfect broken-in feel. Exactly as described!", "reviewerName": "Mason Pearson", "date": "2025-04-30T09:41:02.054Z" },
+      { "rating": 4, "comment": "Absolute must-have for any MJ fan. Fits true to size with a great vintage fade.", "reviewerName": "Aubrey Garcia", "date": "2025-04-30T09:41:02.054Z" },
+      { "rating": 5, "comment": "Grail piece for my 80s music tee collection. Shipping was fast and it was packaged with care.", "reviewerName": "Charlotte Davis", "date": "2025-04-30T09:41:02.054Z" }
     ],
     "brand": "Michael Jackson",
     "stock": 1,
@@ -1290,325 +346,30 @@
     "newArrival": true
   },
   {
-    "id": "p_031",
-    "slug": "women-handbag-black",
-    "name": "Women Handbag Black",
-    "description": "The Women Handbag in Black is a classic and versatile accessory that complements various outfits. With a timeless black color and functional design, it's a must-have in every woman's wardrobe.",
-    "details": [
-      "Brand: Elegance Collection",
-      "fashion accessories, handbags",
-      "11 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 5301,
-    "compareAtPrice": 5999,
-    "category": "bags",
-    "collection": "Elevated",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/3.webp"
-    ],
-    "tags": [
-      "fashion accessories",
-      "handbags"
-    ],
-    "inStock": true,
-    "rating": 2.89,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Very pleased!",
-        "reviewerName": "Natalie Price",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Great product!",
-        "reviewerName": "Emily Johnson",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 1,
-        "comment": "Waste of money!",
-        "reviewerName": "Henry Hill",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Elegance Collection",
-    "stock": 11,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_032",
-    "slug": "black-women-s-gown",
-    "name": "Black Women's Gown",
-    "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
-    "details": [
-      "Designed in-house",
-      "clothing, gowns",
-      "25 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 11637,
-    "compareAtPrice": 12999,
-    "category": "dresses",
-    "collection": "Signature",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/4.webp"
-    ],
-    "tags": [
-      "clothing",
-      "gowns"
-    ],
-    "inStock": true,
-    "rating": 3.64,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Great value for money!",
-        "reviewerName": "Ethan Fletcher",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 3,
-        "comment": "Very dissatisfied!",
-        "reviewerName": "Julian Newton",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Very satisfied!",
-        "reviewerName": "Savannah Gomez",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": null,
-    "stock": 25,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_033",
-    "slug": "corset-leather-with-skirt",
-    "name": "Corset Leather With Skirt",
-    "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
-    "details": [
-      "Designed in-house",
-      "clothing, corsets, skirts",
-      "30 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 7536,
-    "compareAtPrice": 8999,
-    "category": "dresses",
-    "collection": "Elevated",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/4.webp"
-    ],
-    "tags": [
-      "clothing",
-      "corsets",
-      "skirts"
-    ],
-    "inStock": true,
-    "rating": 3.05,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Very happy with my purchase!",
-        "reviewerName": "Natalie Price",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "reviewerName": "Sophia Jones",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "reviewerName": "Leo Rivera",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": null,
-    "stock": 30,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_034",
-    "slug": "corset-with-black-skirt",
-    "name": "Corset With Black Skirt",
-    "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
-    "details": [
-      "Designed in-house",
-      "clothing, corsets, skirts",
-      "33 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 6794,
-    "compareAtPrice": 7999,
-    "category": "dresses",
-    "collection": "Elevated",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/4.webp"
-    ],
-    "tags": [
-      "clothing",
-      "corsets",
-      "skirts"
-    ],
-    "inStock": true,
-    "rating": 4.52,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Very satisfied!",
-        "reviewerName": "Lucas Allen",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 2,
-        "comment": "Disappointing product!",
-        "reviewerName": "Benjamin Wilson",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Very happy with my purchase!",
-        "reviewerName": "Elena Long",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": null,
-    "stock": 33,
-    "featured": false,
-    "newArrival": false
-  },
-    {
     "id": "p_035",
     "slug": "vintage-a-tribe-called-quest-rap-tee-black",
     "name": "Vintage A Tribe Called Quest Rap T-Shirt",
     "description": "Can I kick it? Yes you can — in this tee. This vintage A Tribe Called Quest graphic tee features a bold, multi-color print of the group's name in a stylized graffiti font above a black-and-white portrait of Q-Tip, Phife Dawg, Ali Shaheed Muhammad, and Jarobi White. A true nod to the Native Tongues collective and the golden era of alternative hip-hop, this piece captures the era that gave us 'Bonita Applebum,' 'Scenario,' and 'Electric Relaxation.' A true vintage piece with the perfect worn-in softness that only comes with time.",
-    "details": [
-      "Brand: A Tribe Called Quest",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: A Tribe Called Quest", "vintage tees, rap tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
     "price": 5500,
     "compareAtPrice": 6500,
     "category": "shirts",
-    "collection": "Vintage",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
+    "collection": "Vintage Hip Hop Tees",
+    "sizes": ["M"],
+    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-11.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-10.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/2062.jpeg"
     ],
-    "tags": [
-      "vintage",
-      "rap tee",
-      "90s",
-      "hip-hop",
-      "a tribe called quest",
-      "streetwear"
-    ],
+    "tags": ["vintage", "rap tee", "90s", "hip-hop", "a tribe called quest", "streetwear"],
     "inStock": true,
     "rating": 4.67,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 5,
-        "comment": "Graphic is incredibly clean for its age and the black tee has that perfect broken-in feel. Exactly as described!",
-        "reviewerName": "Harper Turner",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Absolute must-have for any Tribe fan. Fits true to size with a great vintage fade.",
-        "reviewerName": "Luna Russell",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Grail piece for my 90s rap tee collection. Shipping was fast and it was packaged with care.",
-        "reviewerName": "Michael Johnson",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
+      { "rating": 5, "comment": "Graphic is incredibly clean for its age and the black tee has that perfect broken-in feel. Exactly as described!", "reviewerName": "Harper Turner", "date": "2025-04-30T09:41:02.054Z" },
+      { "rating": 4, "comment": "Absolute must-have for any Tribe fan. Fits true to size with a great vintage fade.", "reviewerName": "Luna Russell", "date": "2025-04-30T09:41:02.054Z" },
+      { "rating": 5, "comment": "Grail piece for my 90s rap tee collection. Shipping was fast and it was packaged with care.", "reviewerName": "Michael Johnson", "date": "2025-04-30T09:41:02.054Z" }
     ],
     "brand": "A Tribe Called Quest",
     "stock": 1,
@@ -1616,884 +377,34 @@
     "newArrival": true
   },
   {
-    "id": "p_036",
-    "slug": "marni-red-black-suit",
-    "name": "Marni Red & Black Suit",
-    "description": "The Marni Red & Black Suit is a sophisticated and fashion-forward suit ensemble. With a combination of red and black tones, it showcases a modern design for a bold and confident look.",
-    "details": [
-      "Designed in-house",
-      "clothing, suits",
-      "62 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 14576,
-    "compareAtPrice": 17999,
-    "category": "dresses",
-    "collection": "Signature",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      {
-        "name": "Red",
-        "hex": "#9c2b2b"
-      },
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/4.webp"
-    ],
-    "tags": [
-      "clothing",
-      "suits"
-    ],
-    "inStock": true,
-    "rating": 4.48,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Fast shipping!",
-        "reviewerName": "Avery Perez",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 3,
-        "comment": "Very disappointed!",
-        "reviewerName": "Scarlett Wright",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Highly impressed!",
-        "reviewerName": "Claire Foster",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": null,
-    "stock": 62,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_037",
-    "slug": "green-crystal-earring",
-    "name": "Green Crystal Earring",
-    "description": "The Green Crystal Earring is a dazzling accessory that features a vibrant green crystal. With a classic design, it adds a touch of elegance to your ensemble, perfect for formal or special occasions.",
-    "details": [
-      "Designed in-house",
-      "fashion accessories, earrings",
-      "54 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2542,
-    "compareAtPrice": 2999,
-    "category": "accessories",
-    "collection": "Everyday",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Green",
-        "hex": "#3f5e3f"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/3.webp"
-    ],
-    "tags": [
-      "fashion accessories",
-      "earrings"
-    ],
-    "inStock": true,
-    "rating": 3.96,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "reviewerName": "Michael Williams",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Great value for money!",
-        "reviewerName": "Samantha Howard",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Excellent quality!",
-        "reviewerName": "Xavier Wright",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": null,
-    "stock": 54,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_038",
-    "slug": "green-oval-earring",
-    "name": "Green Oval Earring",
-    "description": "The Green Oval Earring is a stylish and versatile accessory with a unique oval shape. Whether for casual or dressy occasions, its green hue and contemporary design make it a standout piece.",
-    "details": [
-      "Designed in-house",
-      "fashion accessories, earrings",
-      "73 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2120,
-    "compareAtPrice": 2499,
-    "category": "accessories",
-    "collection": "Everyday",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Green",
-        "hex": "#3f5e3f"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/3.webp"
-    ],
-    "tags": [
-      "fashion accessories",
-      "earrings"
-    ],
-    "inStock": true,
-    "rating": 3.57,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 3,
-        "comment": "Would not buy again!",
-        "reviewerName": "Elena Long",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Very satisfied!",
-        "reviewerName": "Layla Sullivan",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "reviewerName": "Xavier Wright",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": null,
-    "stock": 73,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_039",
-    "slug": "tropical-earring",
-    "name": "Tropical Earring",
-    "description": "The Tropical Earring is a fun and playful accessory inspired by tropical elements. Featuring vibrant colors and a lively design, it's perfect for adding a touch of summer to your look.",
-    "details": [
-      "Designed in-house",
-      "fashion accessories, earrings",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 1999,
-    "category": "accessories",
-    "collection": "Everyday",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/3.webp"
-    ],
-    "tags": [
-      "fashion accessories",
-      "earrings"
-    ],
-    "inStock": true,
-    "rating": 4.4,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Great product!",
-        "reviewerName": "Alexander Jones",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Awesome product!",
-        "reviewerName": "Eli Ward",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 1,
-        "comment": "Very unhappy with my purchase!",
-        "reviewerName": "Carter Rivera",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": null,
-    "stock": 1,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_040",
-    "slug": "black-brown-slipper",
-    "name": "Black & Brown Slipper",
-    "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
-    "details": [
-      "Brand: Comfort Trends",
-      "footwear, slippers",
-      "3 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 1999,
-    "category": "shoes",
-    "collection": "Everyday",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Brown",
-        "hex": "#5b3f2c"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "slippers"
-    ],
-    "inStock": true,
-    "rating": 2.53,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Highly impressed!",
-        "reviewerName": "Isaac Lawrence",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 2,
-        "comment": "Not worth the price!",
-        "reviewerName": "William Gonzalez",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Very happy with my purchase!",
-        "reviewerName": "Sophia Jones",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Comfort Trends",
-    "stock": 3,
-    "featured": false,
-    "newArrival": false
-  },
-    {
     "id": "p_041",
     "slug": "vintage-outkast-atliens-rap-tee-black",
     "name": "Vintage Outkast \"ATLiens\" Rap T-Shirt",
     "description": "Stank you very much — this tee is a genuine piece of Southern hip-hop history. This vintage Outkast graphic tee features an illustrated print of André 3000 and Big Boi riding in a classic Cadillac, with purple flames, a crown motif, and the word 'ATLiens' on the license plate — a direct nod to their landmark 1996 album. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
-    "details": [
-      "Brand: Outkast",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
+    "details": ["Brand: Outkast", "vintage tees, rap tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
     "price": 3500,
     "compareAtPrice": 4500,
     "category": "shirts",
-    "collection": "Vintage",
-    "sizes": [
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#1a1a1a"
-      }
-    ],
+    "collection": "Vintage Hip Hop Tees",
+    "sizes": ["L"],
+    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-7.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-21.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-20.jpeg"
     ],
-    "tags": [
-      "vintage",
-      "rap tee",
-      "90s",
-      "hip-hop",
-      "outkast",
-      "streetwear"
-    ],
+    "tags": ["vintage", "rap tee", "90s", "hip-hop", "outkast", "streetwear"],
     "inStock": true,
     "rating": 4.67,
     "reviewCount": 3,
     "reviews": [
-      {
-        "rating": 5,
-        "comment": "Graphic is incredibly detailed and the black tee has that perfect broken-in feel. Exactly as described!",
-        "reviewerName": "Maya Reed",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Absolute must-have for any Outkast fan. Fits true to size with a great vintage fade.",
-        "reviewerName": "Grace Perry",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Grail piece for my 90s rap tee collection. Shipping was fast and it was packaged with care.",
-        "reviewerName": "Eleanor Collins",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
+      { "rating": 5, "comment": "Graphic is incredibly detailed and the black tee has that perfect broken-in feel. Exactly as described!", "reviewerName": "Maya Reed", "date": "2025-04-30T09:41:02.054Z" },
+      { "rating": 4, "comment": "Absolute must-have for any Outkast fan. Fits true to size with a great vintage fade.", "reviewerName": "Grace Perry", "date": "2025-04-30T09:41:02.054Z" },
+      { "rating": 5, "comment": "Grail piece for my 90s rap tee collection. Shipping was fast and it was packaged with care.", "reviewerName": "Eleanor Collins", "date": "2025-04-30T09:41:02.054Z" }
     ],
     "brand": "Outkast",
     "stock": 1,
     "featured": true,
     "newArrival": true
-  },
-  {
-    "id": "p_042",
-    "slug": "golden-shoes-woman",
-    "name": "Golden Shoes Woman",
-    "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
-    "details": [
-      "Brand: Fashion Diva",
-      "footwear, women's shoes",
-      "88 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 4303,
-    "compareAtPrice": 4999,
-    "category": "shoes",
-    "collection": "Elevated",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "women's shoes"
-    ],
-    "inStock": true,
-    "rating": 3.26,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Excellent quality!",
-        "reviewerName": "Nolan Gonzalez",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Very pleased!",
-        "reviewerName": "Brayden Fleming",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Very pleased!",
-        "reviewerName": "Eleanor Tyler",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Fashion Diva",
-    "stock": 88,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_043",
-    "slug": "pampi-shoes",
-    "name": "Pampi Shoes",
-    "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
-    "details": [
-      "Brand: Pampi",
-      "footwear, casual shoes",
-      "49 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2575,
-    "compareAtPrice": 2999,
-    "category": "shoes",
-    "collection": "Everyday",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "casual shoes"
-    ],
-    "inStock": true,
-    "rating": 3.05,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "reviewerName": "Nathan Reed",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "reviewerName": "Connor Baker",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Awesome product!",
-        "reviewerName": "Noah Lewis",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Pampi",
-    "stock": 49,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_044",
-    "slug": "red-shoes",
-    "name": "Red Shoes",
-    "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
-    "details": [
-      "Brand: Fashion Express",
-      "footwear, women's shoes",
-      "7 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2880,
-    "compareAtPrice": 3499,
-    "category": "shoes",
-    "collection": "Elevated",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colors": [
-      {
-        "name": "Red",
-        "hex": "#9c2b2b"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/3.webp",
-      "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/4.webp"
-    ],
-    "tags": [
-      "footwear",
-      "women's shoes"
-    ],
-    "inStock": true,
-    "rating": 3.25,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Fast shipping!",
-        "reviewerName": "Isabella Anderson",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Awesome product!",
-        "reviewerName": "Luna Perez",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Highly impressed!",
-        "reviewerName": "Savannah Gomez",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Fashion Express",
-    "stock": 7,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_045",
-    "slug": "iwc-ingenieur-automatic-steel",
-    "name": "IWC Ingenieur Automatic Steel",
-    "description": "The IWC Ingenieur Automatic Steel watch is a durable and sophisticated timepiece. With a stainless steel case and automatic movement, it combines precision and style for watch enthusiasts.",
-    "details": [
-      "Brand: IWC",
-      "watches, luxury watches",
-      "90 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 452749,
-    "compareAtPrice": 499999,
-    "category": "watches",
-    "collection": "Signature",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/3.webp"
-    ],
-    "tags": [
-      "watches",
-      "luxury watches"
-    ],
-    "inStock": true,
-    "rating": 2.93,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 3,
-        "comment": "Disappointing product!",
-        "reviewerName": "Gabriel Adams",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Great value for money!",
-        "reviewerName": "Evan Reed",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 3,
-        "comment": "Would not buy again!",
-        "reviewerName": "Clara Berry",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "IWC",
-    "stock": 90,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_046",
-    "slug": "rolex-cellini-moonphase-2",
-    "name": "Rolex Cellini Moonphase",
-    "description": "The Rolex Cellini Moonphase watch is a masterpiece of horology. Featuring a moon phase complication, it showcases the craftsmanship and elegance that Rolex is renowned for.",
-    "details": [
-      "Brand: Rolex",
-      "watches, luxury watches",
-      "52 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 1599999,
-    "category": "watches",
-    "collection": "Signature",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/3.webp"
-    ],
-    "tags": [
-      "watches",
-      "luxury watches"
-    ],
-    "inStock": true,
-    "rating": 3.83,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Very happy with my purchase!",
-        "reviewerName": "Gabriel Hayes",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Fast shipping!",
-        "reviewerName": "Logan Torres",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 1,
-        "comment": "Disappointing product!",
-        "reviewerName": "Isabella Jackson",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Rolex",
-    "stock": 52,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_047",
-    "slug": "rolex-datejust-women",
-    "name": "Rolex Datejust Women",
-    "description": "The Rolex Datejust Women's watch is an iconic timepiece designed for women. With a timeless design and a date complication, it offers both elegance and functionality.",
-    "details": [
-      "Brand: Rolex",
-      "watches, luxury watches, women's watches",
-      "4 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 924659,
-    "compareAtPrice": 1099999,
-    "category": "watches",
-    "collection": "Signature",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/3.webp"
-    ],
-    "tags": [
-      "watches",
-      "luxury watches",
-      "women's watches"
-    ],
-    "inStock": true,
-    "rating": 2.86,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 3,
-        "comment": "Not as described!",
-        "reviewerName": "Benjamin Wilson",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Highly impressed!",
-        "reviewerName": "Madison Collins",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Very satisfied!",
-        "reviewerName": "Lucas Gray",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Rolex",
-    "stock": 4,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_048",
-    "slug": "watch-gold-for-women",
-    "name": "Watch Gold for Women",
-    "description": "The Gold Women's Watch is a stunning accessory that combines luxury and style. Featuring a gold-plated case and a chic design, it adds a touch of glamour to any outfit.",
-    "details": [
-      "Brand: Fashion Gold",
-      "watches, women's watches",
-      "Currently out of stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 65327,
-    "compareAtPrice": 79999,
-    "category": "watches",
-    "collection": "Signature",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "Gold",
-        "hex": "#c7a23b"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/3.webp"
-    ],
-    "tags": [
-      "watches",
-      "women's watches"
-    ],
-    "inStock": false,
-    "rating": 4.24,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Highly impressed!",
-        "reviewerName": "Elena Baker",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 4,
-        "comment": "Would buy again!",
-        "reviewerName": "Avery Barnes",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Great product!",
-        "reviewerName": "Evelyn Sanchez",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Fashion Gold",
-    "stock": 0,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_049",
-    "slug": "women-s-wrist-watch",
-    "name": "Women's Wrist Watch",
-    "description": "The Women's Wrist Watch is a versatile and fashionable timepiece for everyday wear. With a comfortable strap and a simple yet elegant design, it complements various styles.",
-    "details": [
-      "Brand: Fashion Co.",
-      "watches, women's watches",
-      "12 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 11361,
-    "compareAtPrice": 12999,
-    "category": "watches",
-    "collection": "Signature",
-    "sizes": [
-      "M"
-    ],
-    "colors": [
-      {
-        "name": "As shown",
-        "hex": "#9aa0a6"
-      }
-    ],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/1.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/2.webp",
-      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/3.webp"
-    ],
-    "tags": [
-      "watches",
-      "women's watches"
-    ],
-    "inStock": true,
-    "rating": 3.52,
-    "reviewCount": 3,
-    "reviews": [
-      {
-        "rating": 4,
-        "comment": "Very happy with my purchase!",
-        "reviewerName": "Harper Kelly",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Highly recommended!",
-        "reviewerName": "Gabriel Bailey",
-        "date": "2025-04-30T09:41:02.054Z"
-      },
-      {
-        "rating": 5,
-        "comment": "Fast shipping!",
-        "reviewerName": "Natalie Price",
-        "date": "2025-04-30T09:41:02.054Z"
-      }
-    ],
-    "brand": "Fashion Co.",
-    "stock": 12,
-    "featured": false,
-    "newArrival": false
   }
 ]

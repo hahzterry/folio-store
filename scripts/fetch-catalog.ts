@@ -19,15 +19,7 @@ const API = "https://dummyjson.com";
 /** DummyJSON fashion categories → our store categories. */
 const CATEGORY_MAP: Record<string, string> = {
   "mens-shirts": "shirts",
-  tops: "tops",
-  "womens-dresses": "dresses",
-  "mens-shoes": "shoes",
-  "womens-shoes": "shoes",
-  "womens-bags": "bags",
-  "mens-watches": "watches",
-  "womens-watches": "watches",
-  sunglasses: "accessories",
-  "womens-jewellery": "accessories",
+  tops: "shirts",
 };
 
 /** Colour words we can pull straight out of a product title. */
@@ -54,6 +46,103 @@ const COLOR_WORDS: Record<string, string> = {
   grey: "#8a8a8a",
   gray: "#8a8a8a",
   silver: "#c0c0c4",
+};
+
+/**
+ * Artist → collection mapping for our vintage tee storefront.
+ *
+ * DummyJSON's catalog is generic fashion, so we classify by keywords found
+ * in the product title, description and tags. Anything that doesn't match
+ * a known artist falls through to "Vintage Hip Hop Tees" as the default,
+ * since that's the store's primary focus.
+ */
+const COLLECTION_KEYWORDS: Record<string, string[]> = {
+  "Vintage Hip Hop Tees": [
+    "hip hop",
+    "hip-hop",
+    "rap",
+    "rapper",
+    "outkast",
+    "dmx",
+    "eminem",
+    "tribe called quest",
+    "naughty by nature",
+    "beastie boys",
+    "salt-n-pepa",
+    "salt n pepa",
+    "wu-tang",
+    "wu tang",
+    "nas",
+    "jay-z",
+    "jay z",
+    "tupac",
+    "biggie",
+    "notorious",
+    "snoop",
+    "dre",
+    "50 cent",
+    "kanye",
+    "kendrick",
+    "missy",
+    "lil kim",
+    "fugees",
+    "migos",
+    "future",
+    "drake",
+    "j cole",
+  ],
+  "Vintage RNB Tees": [
+    "r&b",
+    "rnb",
+    "rhythm and blues",
+    "soul",
+    "motown",
+    "mary j blige",
+    "tlc",
+    "boyz ii men",
+    "usher",
+    "aaliyah",
+    "destiny's child",
+    "beyonce",
+    "r kelly",
+    "toni braxton",
+    "en vogue",
+    "new edition",
+    "jodeci",
+    "lauryn hill",
+    "erykah badu",
+    "d angelo",
+    "maxwell",
+    "sade",
+  ],
+  "Vintage Rock Tees": [
+    "rock",
+    "metal",
+    "punk",
+    "grunge",
+    "nirvana",
+    "metallica",
+    "acdc",
+    "ac/dc",
+    "led zeppelin",
+    "pink floyd",
+    "rolling stones",
+    "queen",
+    "guns n roses",
+    "guns n' roses",
+    "black sabbath",
+    "iron maiden",
+    "ramones",
+    "sex pistols",
+    "the clash",
+    "radiohead",
+    "oasis",
+    "u2",
+    "foo fighters",
+    "red hot chili peppers",
+    "pearl jam",
+    "soundgarden",
+  ],
 };
 
 interface DummyReview {
@@ -108,6 +197,24 @@ function colorsFromTitle(title: string): { name: string; hex: string }[] {
   return found.length ? found : [{ name: "As shown", hex: "#9aa0a6" }];
 }
 
+/**
+ * Classify a product into one of our three vintage collections by scanning
+ * its title, description and tags for known artist/genre keywords.
+ */
+function collectionFor(p: DummyProduct): string {
+  const haystack =
+    `${p.title} ${p.description} ${p.tags.join(" ")}`.toLowerCase();
+
+  for (const [collection, keywords] of Object.entries(COLLECTION_KEYWORDS)) {
+    if (keywords.some((kw) => haystack.includes(kw))) {
+      return collection;
+    }
+  }
+
+  // Default bucket — the store's primary focus.
+  return "Vintage Hip Hop Tees";
+}
+
 async function fetchCategory(cat: string): Promise<DummyProduct[]> {
   const res = await fetch(`${API}/products/category/${cat}?limit=0`);
   if (!res.ok) throw new Error(`Failed to fetch ${cat}: ${res.status}`);
@@ -145,18 +252,10 @@ async function main() {
       : list;
   };
 
-  // Collections are real price tiers (even thirds of the catalog), so
-  // Everyday / Elevated / Signature actually group products by positioning.
-  const sortedPrices = raw.map(finalPrice).sort((a, b) => a - b);
-  const tier1 = sortedPrices[Math.floor(sortedPrices.length / 3)];
-  const tier2 = sortedPrices[Math.floor((2 * sortedPrices.length) / 3)];
-  const collectionFor = (cents: number) =>
-    cents < tier1 ? "Everyday" : cents < tier2 ? "Elevated" : "Signature";
-
   const products = raw
     .sort((a, b) => a.id - b.id)
     .map((p, i) => {
-      const category = CATEGORY_MAP[p.category] ?? "accessories";
+      const category = CATEGORY_MAP[p.category] ?? "shirts";
       const listCents = Math.round(p.price * 100);
       const onSale = p.discountPercentage >= 8;
       const priceCents = finalPrice(p);
@@ -182,7 +281,7 @@ async function main() {
         price: priceCents,
         ...(onSale ? { compareAtPrice: listCents } : {}),
         category,
-        collection: collectionFor(priceCents),
+        collection: collectionFor(p),
         sizes: sizesFor(category),
         colors: colorsFromTitle(p.title),
         images: p.images.slice(0, 4),
@@ -205,6 +304,11 @@ async function main() {
   const counts: Record<string, number> = {};
   for (const p of products) counts[p.category] = (counts[p.category] ?? 0) + 1;
   console.log("By category:", counts);
+
+  const collectionCounts: Record<string, number> = {};
+  for (const p of products)
+    collectionCounts[p.collection] = (collectionCounts[p.collection] ?? 0) + 1;
+  console.log("By collection:", collectionCounts);
 }
 
 main().catch((err) => {

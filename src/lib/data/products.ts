@@ -15,35 +15,35 @@ import { catalogSchema } from "./schema";
  */
 export const PRODUCTS: Product[] = catalogSchema.parse(catalog);
 
-// Collections are price tiers (assigned by the seed script): Everyday,
-// Elevated, and Signature (statement / investment pieces).
+/** Converts a collection name ("Vintage Hip Hop Tees") to its slug
+ *  ("vintage-hip-hop-tees") so collection lookups match the COLLECTIONS array. */
+export const slugify = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+
+// Collections are genre-based (assigned by the seed script): Hip Hop, RNB,
+// and Rock. All three are vintage tees.
 export const COLLECTIONS = [
   {
-    slug: "everyday",
-    name: "Everyday",
-    tagline: "Foundations. Our most accessible pieces.",
+    slug: "vintage-hip-hop-tees",
+    name: "Vintage Hip Hop Tees",
+    tagline: "Golden-era rap tees — from Outkast to DMX.",
   },
   {
-    slug: "elevated",
-    name: "Elevated",
-    tagline: "Considered essentials, a step up.",
+    slug: "vintage-rnb-tees",
+    name: "Vintage RNB Tees",
+    tagline: "Soul, Motown, and 90s R&B icons.",
   },
   {
-    slug: "signature",
-    name: "Signature",
-    tagline: "Statement design and investment buys.",
+    slug: "vintage-rock-tees",
+    name: "Vintage Rock Tees",
+    tagline: "Classic rock, metal, and grunge graphics.",
   },
 ] as const;
 
-export const CATEGORIES = [
-  { slug: "shirts", name: "Shirts" },
-  { slug: "tops", name: "Tops" },
-  { slug: "dresses", name: "Dresses" },
-  { slug: "shoes", name: "Shoes" },
-  { slug: "bags", name: "Bags" },
-  { slug: "watches", name: "Watches" },
-  { slug: "accessories", name: "Accessories" },
-] as const;
+export const CATEGORIES = [{ slug: "shirts", name: "Shirts" }] as const;
 
 // ---- Data access ----
 //
@@ -63,20 +63,20 @@ export function getProductBySlug(
 }
 
 /**
- * A diversified "edit" — the highest-rated product from each category first,
+ * A diversified "edit" — the highest-rated product from each collection first,
  * then the next-best overall to fill the row. Keeps the home feature grid from
- * being dominated by a single category (e.g. all sneakers).
+ * being dominated by a single collection (e.g. all hip hop).
  */
 export function getEditPicks(limit = 8, list: Product[] = PRODUCTS): Product[] {
   const byRating = [...list].sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
   const picks: Product[] = [];
   const chosen = new Set<string>();
 
-  // One per category, best-rated.
-  const seenCategory = new Set<string>();
+  // One per collection, best-rated.
+  const seenCollection = new Set<string>();
   for (const p of byRating) {
-    if (!seenCategory.has(p.category)) {
-      seenCategory.add(p.category);
+    if (!seenCollection.has(p.collection)) {
+      seenCollection.add(p.collection);
       picks.push(p);
       chosen.add(p.id);
     }
@@ -97,9 +97,7 @@ export function getCollectionCoverImage(
   slug: string,
   list: Product[] = PRODUCTS,
 ): string | null {
-  const items = list.filter(
-    (p) => p.collection.toLowerCase() === slug.toLowerCase(),
-  );
+  const items = list.filter((p) => slugify(p.collection) === slug);
   if (!items.length) return null;
   const top = [...items].sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0))[0];
   return top.images[0] ?? null;
@@ -115,9 +113,7 @@ export function getCollectionPriceRange(
   slug: string,
   list: Product[] = PRODUCTS,
 ): { min: number; max: number } | null {
-  const items = list.filter(
-    (p) => p.collection.toLowerCase() === slug.toLowerCase(),
-  );
+  const items = list.filter((p) => slugify(p.collection) === slug);
   if (!items.length) return null;
   const prices = items.map((p) => p.price);
   return { min: Math.min(...prices), max: Math.max(...prices) };
@@ -130,12 +126,12 @@ export function getRelatedProducts(
 ): Product[] {
   const product = list.find((p) => p.id === productId);
   if (!product) return [];
-  const sameCategory = list.filter(
-    (p) => p.id !== productId && p.category === product.category,
+  const sameCollection = list.filter(
+    (p) => p.id !== productId && p.collection === product.collection,
   );
-  // Fall back to other products if a category is too small to fill the row.
+  // Fall back to other products if a collection is too small to fill the row.
   const fill = list.filter(
-    (p) => p.id !== productId && p.category !== product.category,
+    (p) => p.id !== productId && p.collection !== product.collection,
   );
-  return [...sameCategory, ...fill].slice(0, limit);
+  return [...sameCollection, ...fill].slice(0, limit);
 }

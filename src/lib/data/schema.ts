@@ -17,14 +17,14 @@ export const colorSchema = z.object({
   hex: z.string(),
 });
 
-export const categorySchema = z.enum([
-  "shirts",
-  "tops",
-  "dresses",
-  "shoes",
-  "bags",
-  "watches",
-  "accessories",
+/** The store is shirts-only. */
+export const categorySchema = z.enum(["shirts"]);
+
+/** Vintage tee collections. */
+export const collectionSchema = z.enum([
+  "Vintage Hip Hop Tees",
+  "Vintage RNB Tees",
+  "Vintage Rock Tees",
 ]);
 
 export const sizeSchema = z.enum(["XS", "S", "M", "L", "XL", "XXL"]);
@@ -38,7 +38,7 @@ export const productSchema = z.object({
   price: z.number().int().nonnegative(),
   compareAtPrice: z.number().int().nonnegative().optional(),
   category: categorySchema,
-  collection: z.string(),
+  collection: collectionSchema,
   sizes: z.array(sizeSchema),
   colors: z.array(colorSchema),
   images: z.array(z.string()),

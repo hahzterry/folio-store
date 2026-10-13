@@ -20,7 +20,7 @@ export function ProductCard({ product }: { product: Product }) {
         <Link
           href={href}
           aria-label={product.name}
-          className="block h-full w-full"
+          className="relative block h-full w-full"
         >
           <ProductImage
             src={product.images[0]}

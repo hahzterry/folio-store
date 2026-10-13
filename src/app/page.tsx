@@ -136,7 +136,7 @@ export default async function HomePage() {
               Collections
             </p>
             <h2 className="mt-2 font-serif text-3xl md:text-4xl">
-              From everyday to investment.
+              From Hip Hop to Rock vintage t-shirts.
             </h2>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
