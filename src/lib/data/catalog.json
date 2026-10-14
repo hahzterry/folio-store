@@ -1,70 +1,74 @@
 [
   {
     "id": "p_001",
-    "slug": "blue-black-check-shirt",
-    "name": "Blue & Black Check Shirt",
-    "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
-    "details": ["Brand: Fashion Trends", "clothing, men's shirts", "38 in stock", "Ships in 2–4 business days"],
+    "slug": "michael-jacksons-thriller-vintage-tee",
+    "name": "Michael Jackson's Thriller Vintage Tee",
+    "description": "A vintage-style black graphic T-shirt featuring the iconic Michael Jackson's Thriller album artwork. The design includes the classic red and yellow Thriller logo and a vivid illustration of Michael Jackson surrounded by zombies in his signature red jacket. Perfect for fans of 80s pop culture and retro horror.",
+    "details": [
+      "Brand: Vintage RNB Tees",
+      "clothing, men's shirts, graphic tees",
+      "1 in stock",
+      "Ships in 2–4 business days"
+    ],
     "price": 2539,
     "compareAtPrice": 2999,
     "category": "shirts",
     "collection": "Vintage Rock Tees",
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "sizes": ["L"],
     "colors": [
-      { "name": "Blue", "hex": "#3b5b8c" },
       { "name": "Black", "hex": "#1a1a1a" }
     ],
     "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/4.webp"
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-26.jpeg",
+      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-16.jpeg"
     ],
-    "tags": ["clothing", "men's shirts"],
+    "tags": ["clothing", "men's shirts", "graphic tees", "vintage", "music"],
     "inStock": true,
-    "rating": 3.64,
+    "rating": 4.83,
     "reviewCount": 3,
     "reviews": [
-      { "rating": 1, "comment": "Waste of money!", "reviewerName": "Logan Lee", "date": "2025-04-30T09:41:02.053Z" },
-      { "rating": 5, "comment": "Very satisfied!", "reviewerName": "Zachary Lee", "date": "2025-04-30T09:41:02.053Z" },
-      { "rating": 4, "comment": "Fast shipping!", "reviewerName": "Aurora Rodriguez", "date": "2025-04-30T09:41:02.053Z" }
+      { "rating": 5, "comment": "The Thriller graphic looks amazing and the fabric is soft. Love it!", "reviewerName": "Logan Lee", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 4, "comment": "Great vintage tee. The print is vibrant and it fits well.", "reviewerName": "Zachary Lee", "date": "2025-04-30T09:41:02.053Z" },
+      { "rating": 4, "comment": "Fast shipping! The shirt is a bit stiff at first but washes well.", "reviewerName": "Aurora Rodriguez", "date": "2025-04-30T09:41:02.053Z" }
     ],
-    "brand": "Fashion Trends",
-    "stock": 38,
+    "brand": "Vintage Rock Tees",
+    "stock": 1,
     "featured": false,
     "newArrival": true
   },
-  {
-    "id": "p_002",
-    "slug": "gigabyte-aorus-men-tshirt",
-    "name": "Gigabyte Aorus Men Tshirt",
-    "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
-    "details": ["Brand: Gigabyte", "clothing, men's t-shirts", "90 in stock", "Ships in 2–4 business days"],
-    "price": 2499,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "colors": [{ "name": "As shown", "hex": "#9aa0a6" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp",
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/4.webp"
-    ],
-    "tags": ["clothing", "men's t-shirts"],
-    "inStock": true,
-    "rating": 3.18,
-    "reviewCount": 3,
-    "reviews": [
-      { "rating": 5, "comment": "Excellent quality!", "reviewerName": "Amelia Perez", "date": "2025-04-30T09:41:02.053Z" },
-      { "rating": 5, "comment": "Awesome product!", "reviewerName": "Tyler Davis", "date": "2025-04-30T09:41:02.053Z" },
-      { "rating": 1, "comment": "Disappointing product!", "reviewerName": "Harper King", "date": "2025-04-30T09:41:02.053Z" }
-    ],
-    "brand": "Gigabyte",
-    "stock": 90,
-    "featured": false,
-    "newArrival": false
-  },
+ {
+  "id": "p_002",
+  "slug": "pink-floyd-new-york-city-vintage-tee",
+  "name": "Pink Floyd New York City Vintage Tee",
+  "description": "A vintage-style black graphic T-shirt featuring Pink Floyd live in concert. The design showcases the band's name in bold pink lettering, a black-and-white live performance photo, and the iconic four-member portrait arrangement inspired by 'The Dark Side of the Moon'. Includes the text 'New York City, July 4th, Wooster Hall - Doors at 7:30'. Perfect for classic rock fans.",
+  "details": [
+    "Brand: Vintage Rock Tees",
+    "clothing, men's t-shirts, graphic tees",
+    "1 in stock",
+    "Ships in 2–4 business days"
+  ],
+  "price": 2499,
+  "category": "shirts",
+  "collection": "Vintage Rock Tees",
+  "sizes": ["M"],
+  "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
+  "images": [
+    "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-27.jpeg"
+  ],
+  "tags": ["clothing", "men's t-shirts", "graphic tees", "vintage", "music", "rock"],
+  "inStock": true,
+  "rating": 4.67,
+  "reviewCount": 3,
+  "reviews": [
+    { "rating": 5, "comment": "Amazing vintage tee! The Pink Floyd graphic is crisp and the fabric is super comfortable.", "reviewerName": "Amelia Perez", "date": "2025-04-30T09:41:02.053Z" },
+    { "rating": 5, "comment": "Awesome product! The concert print looks even better in person. Highly recommend.", "reviewerName": "Tyler Davis", "date": "2025-04-30T09:41:02.053Z" },
+    { "rating": 1, "comment": "Disappointing product! The print started cracking after one wash.", "reviewerName": "Harper King", "date": "2025-04-30T09:41:02.053Z" }
+  ],
+  "brand": "Vintage Rock Tees",
+  "stock": 1,
+  "featured": false,
+  "newArrival": false
+},
   {
     "id": "p_003",
     "slug": "man-plaid-shirt",
