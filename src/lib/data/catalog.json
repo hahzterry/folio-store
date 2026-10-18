@@ -14,9 +14,7 @@
     "category": "shirts",
     "collection": "Vintage Rock Tees",
     "sizes": ["L"],
-    "colors": [
-      { "name": "Black", "hex": "#1a1a1a" }
-    ],
+    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
     "images": [
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-26.jpeg",
       "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-16.jpeg"
@@ -49,13 +47,6 @@
     ],
     "tags": ["clothing", "men's t-shirts", "graphic tees", "vintage", "music", "rock"],
     "inStock": true,
-    "rating": 4.67,
-    "reviewCount": 3,
-    "reviews": [
-      { "rating": 5, "comment": "Amazing vintage tee! The Pink Floyd graphic is crisp and the fabric is super comfortable.", "reviewerName": "Amelia Perez", "date": "2025-04-30T09:41:02.053Z" },
-      { "rating": 5, "comment": "Awesome product! The concert print looks even better in person. Highly recommend.", "reviewerName": "Tyler Davis", "date": "2025-04-30T09:41:02.053Z" },
-      { "rating": 1, "comment": "Disappointing product! The print started cracking after one wash.", "reviewerName": "Harper King", "date": "2025-04-30T09:41:02.053Z" }
-    ],
     "brand": "Vintage Rock Tees",
     "stock": 1,
     "featured": false,
@@ -326,13 +317,6 @@
     ],
     "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
     "inStock": true,
-    "rating": 4.67,
-    "reviewCount": 3,
-    "reviews": [
-      { "rating": 5, "comment": "Graphic is incredibly clean for its age and the black tee has that perfect broken-in feel. Exactly as described!", "reviewerName": "Maya Reed", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 4, "comment": "Absolute must-have for any Whitney fan. Fits true to size with a great vintage fade.", "reviewerName": "Grace Perry", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 5, "comment": "Grail piece for my 90s music tee collection. Shipping was fast and it was packaged with care.", "reviewerName": "Eleanor Collins", "date": "2025-04-30T09:41:02.054Z" }
-    ],
     "brand": "Whitney Houston",
     "stock": 1,
     "featured": true,
@@ -355,13 +339,6 @@
     ],
     "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
     "inStock": true,
-    "rating": 4.67,
-    "reviewCount": 3,
-    "reviews": [
-      { "rating": 5, "comment": "Amazing vintage tee! The graphic is crisp and the fabric is super comfortable.", "reviewerName": "Amelia Perez", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 5, "comment": "Awesome product! The print looks even better in person. Highly recommend.", "reviewerName": "Tyler Davis", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 4, "comment": "Great tee, but the blue color is slightly lighter than pictured.", "reviewerName": "Harper King", "date": "2025-04-30T09:41:02.054Z" }
-    ],
     "brand": "Whitney Houston",
     "stock": 1,
     "featured": false,
@@ -384,13 +361,6 @@
     ],
     "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
     "inStock": true,
-    "rating": 4.46,
-    "reviewCount": 3,
-    "reviews": [
-      { "rating": 4, "comment": "Disappointing product!", "reviewerName": "Aubrey Wagner", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 5, "comment": "Awesome product!", "reviewerName": "Evan Reed", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 4, "comment": "Very pleased with this purchase!", "reviewerName": "Evelyn Gonzalez", "date": "2025-04-30T09:41:02.054Z" }
-    ],
     "brand": "Whitney Houston",
     "stock": 1,
     "featured": false,
@@ -413,13 +383,6 @@
     ],
     "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
     "inStock": true,
-    "rating": 4.9,
-    "reviewCount": 3,
-    "reviews": [
-      { "rating": 5, "comment": "Highly recommended!", "reviewerName": "Charlotte Lopez", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 5, "comment": "Great quality!", "reviewerName": "Ellie Stewart", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 4, "comment": "Love the retro design!", "reviewerName": "Sadie Morales", "date": "2025-04-30T09:41:02.054Z" }
-    ],
     "brand": "Whitney Houston",
     "stock": 1,
     "featured": true,
@@ -442,13 +405,6 @@
     ],
     "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
     "inStock": true,
-    "rating": 4.72,
-    "reviewCount": 3,
-    "reviews": [
-      { "rating": 5, "comment": "Would recommend!", "reviewerName": "Mateo Nguyen", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 4, "comment": "Fast shipping!", "reviewerName": "Lucas Allen", "date": "2025-04-30T09:41:02.054Z" },
-      { "rating": 5, "comment": "Very happy with my purchase!", "reviewerName": "Henry Adams", "date": "2025-04-30T09:41:02.054Z" }
-    ],
     "brand": "Whitney Houston",
     "stock": 1,
     "featured": false,
@@ -471,5 +427,81 @@
     ],
     "tags": ["vintage", "rock tee", "80s", "guns n' roses", "streetwear"],
     "inStock": true,
-    "rating": 4.83,
-    "review
+    "brand": "Guns N' Roses",
+    "stock": 1,
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "p_048",
+    "slug": "guns-n-roses-classic-logo-vintage-tee",
+    "name": "Guns N' Roses Classic Logo Vintage Tee",
+    "description": "A black graphic T-shirt featuring the classic Guns N' Roses logo. The design includes the iconic circular emblem with a yellow border, a central image of two crossed pistols wrapped in roses, and the band's name in bold black lettering around the circle. A timeless piece of rock merchandise.",
+    "details": ["Brand: Guns N' Roses", "vintage tees, rock tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
+    "price": 3000,
+    "compareAtPrice": 4000,
+    "category": "shirts",
+    "collection": "Vintage Rock Tees",
+    "sizes": ["XXL"],
+    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/1.webp"
+    ],
+    "tags": ["vintage", "rock tee", "90s", "guns n' roses", "streetwear"],
+    "inStock": true,
+    "brand": "Guns N' Roses",
+    "stock": 1,
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "p_049",
+    "slug": "guns-n-roses-skull-logo-vintage-tee",
+    "name": "Guns N' Roses Skull Logo Vintage Tee",
+    "description": "A black graphic T-shirt featuring a bold Guns N' Roses design. The central image is a stylized skull wearing a top hat, with crossed pistols and a rose behind it. The band's name is printed in a yellow banner across the skull. A classic and edgy piece for fans of the band.",
+    "details": ["Brand: Guns N' Roses", "vintage tees, rock tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
+    "price": 3200,
+    "compareAtPrice": 4200,
+    "category": "shirts",
+    "collection": "Vintage Rock Tees",
+    "sizes": ["XXL"],
+    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/2.webp"
+    ],
+    "tags": ["vintage", "rock tee", "90s", "guns n' roses", "streetwear"],
+    "inStock": true,
+    "brand": "Guns N' Roses",
+    "stock": 1,
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "p_050",
+    "slug": "guns-n-roses-use-your-illusion-tie-dye-tee",
+    "name": "Guns N' Roses \"Use Your Illusion\" Tie-Dye Tee",
+    "description": "A vibrant pink and white tie-dye graphic T-shirt featuring the Guns N' Roses 'Use Your Illusion' artwork. The design includes the letters 'GNR' in blue and purple with a red rose and a silver revolver. The album title 'USE YOUR ILLUSION' is printed in yellow and orange lettering below. A bold and colorful piece for any rock fan.",
+    "details": ["Brand: Guns N' Roses", "vintage tees, rock tees, 90s streetwear", "1 in stock", "Ships in 2–4 business days"],
+    "price": 3800,
+    "compareAtPrice": 4800,
+    "category": "shirts",
+    "collection": "Vintage Rock Tees",
+    "sizes": ["M"],
+    "colors": [{ "name": "Pink", "hex": "#ff69b4" }],
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/3.webp"
+    ],
+    "tags": ["vintage", "rock tee", "90s", "guns n' roses", "tie-dye"],
+    "inStock": true,
+    "brand": "Guns N' Roses",
+    "stock": 1,
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "p_051",
+    "slug": "guns-n-roses-not-in-this-lifetime-vintage-tee",
+    "name": "Guns N' Roses \"Not In This Lifetime\" Vintage Tee",
+    "description": "A black graphic T-shirt featuring the Guns N' Roses 'Not In This Lifetime' tour design. The classic circular logo is splattered with red paint, and the tour name is printed in a jagged red font across the bottom. A must-have for fans who caught the reunion tour.",
+    "details": ["Brand: Guns N' Roses", "vintage tees, rock tees, 2010s streetwear", "1 in stock", "Ships in 2–4 business days"],
+    "price": 3200
