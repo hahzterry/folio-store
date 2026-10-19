@@ -1,685 +1,988 @@
-[
-  {
-    "id": "p_001",
-    "slug": "michael-jacksons-thriller-vintage-tee",
-    "name": "Michael Jackson's Thriller Vintage Tee",
-    "description": "A vintage-style black graphic T-shirt featuring the iconic Michael Jackson's Thriller album artwork. The design includes the classic red and yellow Thriller logo and a vivid illustration of Michael Jackson surrounded by zombies in his signature red jacket. Perfect for fans of 80s pop culture and retro horror.",
-    "details": [
-      "Brand: Vintage RNB Tees",
-      "clothing, men's shirts, graphic tees",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 35000,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["L"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-26.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-16.jpeg"
-    ],
-    "tags": ["clothing", "men's shirts", "graphic tees", "vintage", "music"],
-    "inStock": true,
-    "brand": "Vintage Rock Tees",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_002",
-    "slug": "pink-floyd-new-york-city-vintage-tee",
-    "name": "Pink Floyd New York City Vintage Tee",
-    "description": "A vintage-style black graphic T-shirt featuring Pink Floyd live in concert. The design showcases the band's name in bold pink lettering, a black-and-white live performance photo, and the iconic four-member portrait arrangement inspired by 'The Dark Side of the Moon'. Includes the text 'New York City, July 4th, Wooster Hall - Doors at 7:30'. Perfect for classic rock fans.",
-    "details": [
-      "Brand: Vintage Rock Tees",
-      "clothing, men's t-shirts, graphic tees",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2499,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-27.jpeg"
-    ],
-    "tags": ["clothing", "men's t-shirts", "graphic tees", "vintage", "music", "rock"],
-    "inStock": true,
-    "brand": "Vintage Rock Tees",
-    "stock": 1,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_003",
-    "slug": "guns-n-roses-vintage-tee-orange",
-    "name": "Guns N' Roses Vintage Tee - Orange",
-    "description": "A vintage-style orange graphic T-shirt featuring Guns N' Roses. The design showcases the band's name in bold lettering, a black-and-white live performance photo, and the iconic four-member portrait arrangement inspired by 'Appetite for Destruction'. Perfect for classic rock fans.",
-    "details": [
-      "Brand: Vintage Rock Tees",
-      "clothing, men's t-shirts",
-      "82 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 30000,
-    "compareAtPrice": 30000,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["L"],
-    "colors": [{ "name": "As shown", "hex": "#9aa0a6" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp"
-    ],
-    "tags": ["clothing", "men's shirts"],
-    "inStock": true,
-    "brand": "Classic Wear",
-    "stock": 82,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_004",
-    "slug": "whitney-houston-vintage-tee-blue",
-    "name": "Whitney Houston Vintage Tee - Blue",
-    "description": "A vintage-style blue graphic T-shirt featuring Whitney Houston. The design showcases the singer's name in bold lettering, a black-and-white concert photo, and the iconic four-member portrait arrangement inspired by 'Whitney'. Perfect for classic pop fans.",
-    "details": [
-      "Brand: Vintage Rock Tees",
-      "clothing, men's t-shirts",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 30000,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "As shown", "hex": "#96B6CF" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp"
-    ],
-    "tags": ["clothing", "men's shirts"],
-    "inStock": true,
-    "brand": "Casual Comfort",
-    "stock": 1,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_005",
-    "slug": "guns-n-roses-vintage-tee-green",
-    "name": "Guns N' Roses Vintage Tee - Green",
-    "description": "A vintage-style green graphic T-shirt featuring Guns N' Roses. The design showcases the band's name in bold lettering, a black-and-white live performance photo, and the iconic four-member portrait arrangement inspired by 'Appetite for Destruction'. Perfect for classic rock fans.",
-    "details": [
-      "Brand: Vintage Rock Tees",
-      "clothing, men's t-shirts",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 35000,
-    "compareAtPrice": 35000,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["XXL"],
-    "colors": [{ "name": "As shown", "hex": "#96B6CF" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/1.webp"
-    ],
-    "tags": ["clothing", "men's shirts"],
-    "inStock": true,
-    "brand": "Urban Chic",
-    "stock": 1,
-    "featured": false,
-    "newArrival": false
-  },
-  {
-    "id": "p_013",
-    "slug": "vintage-salt-n-pepa-rap-tee-white",
-    "name": "Vintage Salt-N-Pepa Rap T-shirt",
-    "description": "Own a piece of hip-hop history. This vintage Salt-N-Pepa graphic tee is the ultimate nod to the golden era of female rap. Printed on a classic white cotton t-shirt, the front features a vibrant, high-contrast image of Salt, Pepa, and DJ Spinderella rocking their iconic 'Idol Maker' leather jackets — the very same style made famous in their legendary 'Push It' era. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
-    "details": [
-      "Brand: Salt-N-Pepa",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 25000,
-    "category": "shirts",
-    "collection": "Vintage Hip Hop Tees",
-    "sizes": ["S"],
-    "colors": [{ "name": "White", "hex": "#f5f5f5" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-1.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-14.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-13.jpeg"
-    ],
-    "tags": ["vintage", "rap tee", "90s", "hip-hop", "salt-n-pepa", "streetwear"],
-    "inStock": true,
-    "brand": "Salt-N-Pepa",
-    "stock": 1,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_014",
-    "slug": "vintage-outkast-south-got-something-to-say-rap-tee-blue",
-    "name": "Vintage Outkast \"The South Got Something To Say\" Rap T-shirt",
-    "description": "The South got something to say — and this tee says it loud. This vintage Outkast graphic tee is a true piece of Southern hip-hop history. Printed on a classic blue cotton t-shirt, the front features a vibrant, high-contrast image of André 3000 and Big Boi with the iconic phrase 'The South Got Something To Say' — a direct nod to André 3000's legendary 1995 Source Awards speech that helped put Atlanta on the map. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
-    "details": [
-      "Brand: Outkast",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 25000,
-    "category": "shirts",
-    "collection": "Vintage Hip Hop Tees",
-    "sizes": ["S"],
-    "colors": [{ "name": "Blue", "hex": "#3a6ea5" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-6.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-19.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-18.jpeg"
-    ],
-    "tags": ["vintage", "rap tee", "90s", "hip-hop", "outkast", "streetwear"],
-    "inStock": true,
-    "brand": "Outkast",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_015",
-    "slug": "vintage-naughty-by-nature-rap-tee-white",
-    "name": "Vintage Naughty by Nature Rap T-Shirt",
-    "description": "Hip-hop hooray — this tee is a genuine piece of 90s rap history. This vintage Naughty by Nature graphic tee features a bold, high-contrast print of Treach, Vin Rock, and DJ Kay Gee in their signature streetwear, with a red brushstroke backdrop and a baseball bat graphic anchoring the bottom. Named after the New Jersey neighborhood they grew up in, Naughty by Nature defined East Coast hip-hop in the early 90s with anthems like 'O.P.P.' and 'Hip Hop Hooray.' A true vintage piece with the perfect worn-in softness that only comes with time.",
-    "details": [
-      "Brand: Naughty by Nature",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 25000,
-    "category": "shirts",
-    "collection": "Vintage Hip Hop Tees",
-    "sizes": ["S"],
-    "colors": [{ "name": "White", "hex": "#f5f5f5" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-9.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-24.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-22.jpeg"
-    ],
-    "tags": ["vintage", "rap tee", "90s", "hip-hop", "naughty by nature", "streetwear"],
-    "inStock": true,
-    "brand": "Naughty by Nature",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_016",
-    "slug": "vintage-beastie-boys-check-your-head-rap-tee-black",
-    "name": "Vintage Beastie Boys \"Check Your Head\" Rap T-Shirt",
-    "description": "Check your head — this tee is a genuine piece of 90s hip-hop history. This vintage Beastie Boys graphic tee features a bold blue print of the trio's name and album title framing a classic black-and-white photo from their 'Check Your Head' era. Released in 1992, the album marked a pivotal shift for the Beastie Boys, blending punk, funk, and jazz into a sound that would define their legacy. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
-    "details": [
-      "Brand: Beastie Boys",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 15000,
-    "category": "shirts",
-    "collection": "Vintage Hip Hop Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/2003.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-12.jpeg"
-    ],
-    "tags": ["vintage", "rap tee", "90s", "hip-hop", "beastie boys", "streetwear"],
-    "inStock": true,
-    "brand": "Beastie Boys",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_019",
-    "slug": "vintage-dmx-rap-tee-black",
-    "name": "Vintage DMX Rap Tee – 90s Hip-Hop Black T-Shirt – Rare Retro Ruff Ryders Graphic",
-    "description": "Stop, drop, shut 'em down this new to you vintage t-shirt is a genuine piece of 90s hip-hop history. This vintage DMX graphic tee features a high-contrast black-and-white print of the rapper mid-performance, gripping a mic with both hands, framed by the iconic pink gothic 'DMX' logo beneath. One of the most raw and influential voices in East Coast hip-hop, DMX defined the late 90s with anthems like 'Ruff Ryders' Anthem,' 'Party Up,' and 'X Gon' Give It to Ya.' A true vintage piece with the perfect worn-in softness that only comes with time.",
-    "details": [
-      "Brand: DMX",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 25000,
-    "category": "shirts",
-    "collection": "Vintage Hip Hop Tees",
-    "sizes": ["XS"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-8.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/2047.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-23.jpeg"
-    ],
-    "tags": ["vintage", "rap tee", "90s", "hip-hop", "dmx", "streetwear"],
-    "inStock": true,
-    "brand": "DMX",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_023",
-    "slug": "vintage-michael-jackson-beat-it-tee-black",
-    "name": "Vintage Michael Jackson \"Beat It\" T-Shirt",
-    "description": "Just beat it, in this new to you vintage female t-shirt. This vintage Michael Jackson graphic tee features a bold gold glitter-style 'BEAT IT' print framing the King of Pop himself in his iconic red zipper jacket and silver glove from the legendary 'Beat It' music video. Released in 1983 as part of the record-breaking Thriller album, the song and its video helped define the MTV era and cemented Michael Jackson as the biggest pop star on the planet. A true vintage piece with the perfect worn-in softness that only comes with time.",
-    "details": [
-      "Brand: Michael Jackson",
-      "vintage tees, music tees, 80s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 35000,
-    "category": "shirts",
-    "collection": "Vintage RNB Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-4.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/1980.jpeg"
-    ],
-    "tags": ["vintage", "music tee", "80s", "pop", "michael jackson", "streetwear"],
-    "inStock": true,
-    "brand": "Michael Jackson",
-    "stock": 1,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_035",
-    "slug": "vintage-a-tribe-called-quest-rap-tee-black",
-    "name": "Vintage A Tribe Called Quest Rap T-Shirt",
-    "description": "Can I kick it? Yes you can — in this tee. This vintage A Tribe Called Quest graphic tee features a bold, multi-color print of the group's name in a stylized graffiti font above a black-and-white portrait of Q-Tip, Phife Dawg, Ali Shaheed Muhammad, and Jarobi White. A true nod to the Native Tongues collective and the golden era of alternative hip-hop, this piece captures the era that gave us 'Bonita Applebum,' 'Scenario,' and 'Electric Relaxation.' A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
-    "details": [
-      "Brand: A Tribe Called Quest",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 25000,
-    "category": "shirts",
-    "collection": "Vintage Hip Hop Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-11.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-10.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/2062.jpeg"
-    ],
-    "tags": ["vintage", "rap tee", "90s", "hip-hop", "a tribe called quest", "streetwear"],
-    "inStock": true,
-    "brand": "A Tribe Called Quest",
-    "stock": 1,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_041",
-    "slug": "vintage-outkast-atliens-rap-tee-black",
-    "name": "Vintage Outkast \"ATLiens\" Rap T-Shirt",
-    "description": "Stank you very much — this tee is a genuine piece of Southern hip-hop history. This vintage Outkast graphic tee features an illustrated print of André 3000 and Big Boi riding in a classic Cadillac, with purple flames, a crown motif, and the word 'ATLiens' on the license plate — a direct nod to their landmark 1996 album. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
-    "details": [
-      "Brand: Outkast",
-      "vintage tees, rap tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 25000,
-    "category": "shirts",
-    "collection": "Vintage Hip Hop Tees",
-    "sizes": ["L"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-7.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-21.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-20.jpeg"
-    ],
-    "tags": ["vintage", "rap tee", "90s", "hip-hop", "outkast", "streetwear"],
-    "inStock": true,
-    "brand": "Outkast",
-    "stock": 1,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_042",
-    "slug": "whitney-houston-i-will-always-love-you-vintage-tee",
-    "name": "Whitney Houston \"I Will Always Love You\" Vintage Tee",
-    "description": "A vintage-style black graphic T-shirt celebrating the legendary Whitney Houston. The design features a vibrant image of Whitney smiling and pointing, dressed in a black turtleneck, set against a blue spotlight background. Her name 'WHITNEY' and 'HOUSTON' are printed in bold, light blue varsity-style lettering at the top and bottom. The iconic song title 'I Will Always Love You' is written in white script across the center. A perfect tribute to the legendary singer.",
-    "details": [
-      "Brand: Whitney Houston",
-      "vintage tees, music tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 3500,
-    "compareAtPrice": 4500,
-    "category": "shirts",
-    "collection": "Vintage RNB Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/3.webp"
-    ],
-    "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
-    "inStock": true,
-    "brand": "Whitney Houston",
-    "stock": 1,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_043",
-    "slug": "whitney-houston-pink-graphic-vintage-tee",
-    "name": "Whitney Houston Pink Graphic Vintage Tee",
-    "description": "A vintage-style blue graphic T-shirt featuring the legendary Whitney Houston. The design showcases a vibrant, smiling image of Whitney in a black dress and turtleneck, set against a bold pink background filled with her signature in white script. The shirt has a distressed, worn-in look, adding to its vintage aesthetic. Perfect for fans of classic pop and R&B.",
-    "details": [
-      "Brand: Whitney Houston",
-      "vintage tees, music tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 3200,
-    "compareAtPrice": 4500,
-    "category": "shirts",
-    "collection": "Vintage RNB Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "Blue", "hex": "#3a6ea5" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/4.webp"
-    ],
-    "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
-    "inStock": true,
-    "brand": "Whitney Houston",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_044",
-    "slug": "whitney-houston-white-portrait-vintage-tee",
-    "name": "Whitney Houston White Portrait Vintage Tee",
-    "description": "A classic white graphic T-shirt featuring a stunning black-and-white portrait of Whitney Houston. The design captures her smiling with her eyes closed, hand gently raised, with a white script signature overlaying the image. The word 'WHITNEY' is printed in bold blue serif lettering above the portrait. A beautiful and timeless tribute to the iconic singer.",
-    "details": [
-      "Brand: Whitney Houston",
-      "vintage tees, music tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 3000,
-    "compareAtPrice": 3800,
-    "category": "shirts",
-    "collection": "Vintage RNB Tees",
-    "sizes": ["S"],
-    "colors": [{ "name": "White", "hex": "#f5f5f5" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-geforce-rtx-3090/1.webp"
-    ],
-    "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
-    "inStock": true,
-    "brand": "Whitney Houston",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_045",
-    "slug": "whitney-houston-so-emotional-vintage-tee",
-    "name": "Whitney Houston \"So Emotional\" Vintage Tee",
-    "description": "A light grey graphic T-shirt featuring a vibrant, 80s-inspired design of Whitney Houston. The image shows her in a black turtleneck and dress, smiling and pointing, set against a colorful pink and yellow gradient background. The word 'WHITNEY' is printed vertically in bright blue block letters down the left side, with the song title 'So Emotional' in a pink script font across the bottom. A perfect retro piece for fans of the 80s era.",
-    "details": [
-      "Brand: Whitney Houston",
-      "vintage tees, music tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 3500,
-    "compareAtPrice": 4500,
-    "category": "shirts",
-    "collection": "Vintage RNB Tees",
-    "sizes": ["L"],
-    "colors": [{ "name": "Grey", "hex": "#d3d3d3" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-geforce-rtx-3090/2.webp"
-    ],
-    "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
-    "inStock": true,
-    "brand": "Whitney Houston",
-    "stock": 1,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_046",
-    "slug": "whitney-houston-black-and-white-vintage-tee",
-    "name": "Whitney Houston Black and White Vintage Tee",
-    "description": "A classic black graphic T-shirt featuring a timeless black-and-white photograph of Whitney Houston. The image captures her smiling warmly, seated and looking directly at the camera. The word 'WHITNEY' is printed in bold, red capital letters across the center of the photo. A minimalist and elegant tribute to the legendary artist.",
-    "details": [
-      "Brand: Whitney Houston",
-      "vintage tees, music tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2800,
-    "compareAtPrice": 3200,
-    "category": "shirts",
-    "collection": "Vintage RNB Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-geforce-rtx-3090/3.webp"
-    ],
-    "tags": ["vintage", "music tee", "90s", "pop", "whitney houston", "streetwear"],
-    "inStock": true,
-    "brand": "Whitney Houston",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_047",
-    "slug": "guns-n-roses-welcome-to-the-jungle-vintage-tee",
-    "name": "Guns N' Roses \"Welcome To The Jungle\" Vintage Tee",
-    "description": "A dark grey graphic T-shirt featuring the iconic Guns N' Roses song title. The text 'WELCOME TO THE JUNGLE' is printed in a distressed, red font, with two small red roses flanking the words 'TO THE'. The band's name is printed in a subtle black font below. A classic piece for rock fans.",
-    "details": [
-      "Brand: Guns N' Roses",
-      "vintage tees, rock tees, 80s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 2800,
-    "compareAtPrice": 3500,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["2"],
-    "colors": [{ "name": "Dark Grey", "hex": "#333333" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-geforce-rtx-3090/4.webp"
-    ],
-    "tags": ["vintage", "rock tee", "80s", "guns n' roses", "streetwear"],
-    "inStock": true,
-    "brand": "Guns N' Roses",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_048",
-    "slug": "guns-n-roses-classic-logo-vintage-tee",
-    "name": "Guns N' Roses Classic Logo Vintage Tee",
-    "description": "A black graphic T-shirt featuring the classic Guns N' Roses logo. The design includes the iconic circular emblem with a yellow border, a central image of two crossed pistols wrapped in roses, and the band's name in bold black lettering around the circle. A timeless piece of rock merchandise.",
-    "details": [
-      "Brand: Guns N' Roses",
-      "vintage tees, rock tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 3000,
-    "compareAtPrice": 4000,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["XXL"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/1.webp"
-    ],
-    "tags": ["vintage", "rock tee", "90s", "guns n' roses", "streetwear"],
-    "inStock": true,
-    "brand": "Guns N' Roses",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_049",
-    "slug": "guns-n-roses-skull-logo-vintage-tee",
-    "name": "Guns N' Roses Skull Logo Vintage Tee",
-    "description": "A black graphic T-shirt featuring a bold Guns N' Roses design. The central image is a stylized skull wearing a top hat, with crossed pistols and a rose behind it. The band's name is printed in a yellow banner across the skull. A classic and edgy piece for fans of the band.",
-    "details": [
-      "Brand: Guns N' Roses",
-      "vintage tees, rock tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 3200,
-    "compareAtPrice": 4200,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["XXL"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/2.webp"
-    ],
-    "tags": ["vintage", "rock tee", "90s", "guns n' roses", "streetwear"],
-    "inStock": true,
-    "brand": "Guns N' Roses",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_050",
-    "slug": "guns-n-roses-use-your-illusion-tie-dye-tee",
-    "name": "Guns N' Roses \"Use Your Illusion\" Tie-Dye Tee",
-    "description": "A vibrant pink and white tie-dye graphic T-shirt featuring the Guns N' Roses 'Use Your Illusion' artwork. The design includes the letters 'GNR' in blue and purple with a red rose and a silver revolver. The album title 'USE YOUR ILLUSION' is printed in yellow and orange lettering below. A bold and colorful piece for any rock fan.",
-    "details": [
-      "Brand: Guns N' Roses",
-      "vintage tees, rock tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 3800,
-    "compareAtPrice": 4800,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["M"],
-    "colors": [{ "name": "Pink", "hex": "#ff69b4" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/3.webp"
-    ],
-    "tags": ["vintage", "rock tee", "90s", "guns n' roses", "tie-dye"],
-    "inStock": true,
-    "brand": "Guns N' Roses",
-    "stock": 1,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_051",
-    "slug": "guns-n-roses-not-in-this-lifetime-vintage-tee",
-    "name": "Guns N' Roses \"Not In This Lifetime\" Vintage Tee",
-    "description": "A black graphic T-shirt featuring the Guns N' Roses 'Not In This Lifetime' tour design. The classic circular logo is splattered with red paint, and the tour name is printed in a jagged red font across the bottom. A must-have for fans who caught the reunion tour.",
-    "details": [
-      "Brand: Guns N' Roses",
-      "vintage tees, rock tees, 2010s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 3200,
-    "compareAtPrice": 4000,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["L"],
-    "colors": [{ "name": "Black", "hex": "#1a1a1a" }],
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&black-check-shirt/4.webp"
-    ],
-    "tags": ["vintage", "rock tee", "guns n' roses", "streetwear"],
-    "inStock": true,
-    "brand": "Guns N' Roses",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  },
-  {
-    "id": "p_052",
-    "slug": "guns-n-roses-sweet-child-o-mine-tie-dye-tee",
-    "name": "Guns N' Roses \"Sweet Child O' Mine\" Tie-Dye Tee",
-    "description": "A black and orange tie-dye graphic T-shirt featuring the Guns N' Roses song 'Sweet Child O' Mine'. The band's name is printed in yellow, and the song title circles the classic logo emblem. A unique and vibrant piece for fans of the band.",
-    "details": [
-      "Brand: Guns N' Roses",
-      "vintage tees, rock tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 28000,
-    "compareAtPrice": 30000,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["L"],
-    "colors": [{ "name": "Black/Orange", "hex": "#ff8c00" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-34.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/5819-1.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-36.jpeg"
-    ],
-    "tags": ["vintage", "rock tee", "90s", "guns n' roses", "tie-dye"],
-    "inStock": true,
-    "brand": "Guns N' Roses",
-    "stock": 1,
-    "featured": true,
-    "newArrival": true
-  },
-  {
-    "id": "p_053",
-    "slug": "guns-n-roses-green-tie-dye-logo-tee",
-    "name": "Guns N' Roses Green Tie-Dye Logo Tee",
-    "description": "A green and black tie-dye graphic T-shirt featuring the classic Guns N' Roses logo. The circular emblem with crossed pistols and roses is printed in a distressed white and grey style. A unique and stylish piece for fans of the band.",
-    "details": [
-      "Brand: Guns N' Roses",
-      "vintage tees, rock tees, 90s streetwear",
-      "1 in stock",
-      "Ships in 2–4 business days"
-    ],
-    "price": 28000,
-    "compareAtPrice": 32000,
-    "category": "shirts",
-    "collection": "Vintage Rock Tees",
-    "sizes": ["XXL"],
-    "colors": [{ "name": "Green", "hex": "#008000" }],
-    "images": [
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-32.jpeg",
-      "https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-33.jpeg"
-    ],
-    "tags": ["vintage", "rock tee", "90s", "guns n' roses", "tie-dye"],
-    "inStock": true,
-    "brand": "Guns N' Roses",
-    "stock": 1,
-    "featured": false,
-    "newArrival": true
-  }
+[{
+"id": "p_001",
+"slug": "michael-jacksons-thriller-vintage-tee",
+"name": "Michael Jackson's Thriller Vintage Tee",
+"description": "A vintage-style black graphic T-shirt featuring the iconic Michael Jackson's Thriller album artwork. The design includes the classic red and yellow Thriller logo and a vivid illustration of Michael Jackson surrounded by zombies in his signature red jacket. Perfect for fans of 80s pop culture and retro horror.",
+"details": [
+"Brand: Vintage RNB Tees",
+"clothing, men's shirts, graphic tees",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 35000,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"L"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-26.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-16.jpeg"
+],
+"tags": [
+"clothing",
+"men's shirts",
+"graphic tees",
+"vintage",
+"music"
+],
+"inStock": true,
+"brand": "Vintage Rock Tees",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_002",
+"slug": "pink-floyd-new-york-city-vintage-tee",
+"name": "Pink Floyd New York City Vintage Tee",
+"description": "A vintage-style black graphic T-shirt featuring Pink Floyd live in concert. The design showcases the band's name in bold pink lettering, a black-and-white live performance photo, and the iconic four-member portrait arrangement inspired by 'The Dark Side of the Moon'. Includes the text 'New York City, July 4th, Wooster Hall - Doors at 7:30'. Perfect for classic rock fans.",
+"details": [
+"Brand: Vintage Rock Tees",
+"clothing, men's t-shirts, graphic tees",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 2499,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"M"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-27.jpeg"
+],
+"tags": [
+"clothing",
+"men's t-shirts",
+"graphic tees",
+"vintage",
+"music",
+"rock"
+],
+"inStock": true,
+"brand": "Vintage Rock Tees",
+"stock": 1,
+"featured": false,
+"newArrival": false
+},
+{
+"id": "p_003",
+"slug": "guns-n-roses-vintage-tee-orange",
+"name": "Guns N' Roses Vintage Tee - Orange",
+"description": "A vintage-style orange graphic T-shirt featuring Guns N' Roses. The design showcases the band's name in bold lettering, a black-and-white live performance photo, and the iconic four-member portrait arrangement inspired by 'Appetite for Destruction'. Perfect for classic rock fans.",
+"details": [
+"Brand: Vintage Rock Tees",
+"clothing, men's t-shirts",
+"82 in stock",
+"Ships in 2–4 business days"
+],
+"price": 30000,
+"compareAtPrice": 30000,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"L"
+],
+"colors": [
+{
+"name": "As shown",
+"hex": "#9aa0a6"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-34.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/5819.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-36.jpeg"
+],
+"tags": [
+"clothing",
+"men's shirts"
+],
+"inStock": true,
+"brand": "Classic Wear",
+"stock": 82,
+"featured": false,
+"newArrival": false
+},
+{
+"id": "p_004",
+"slug": "whitney-houston-vintage-tee-blue",
+"name": "Whitney Houston Vintage Tee - Blue",
+"description": "A vintage-style blue graphic T-shirt featuring Whitney Houston. The design showcases the singer's name in bold lettering, a black-and-white concert photo, and the iconic four-member portrait arrangement inspired by 'Whitney'. Perfect for classic pop fans.",
+"details": [
+"Brand: Vintage RNB Tees",
+"clothing, men's t-shirts",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 30000,
+"category": "shirts",
+"collection": "Vintage RNB Tees",
+"sizes": [
+"M"
+],
+"colors": [
+{
+"name": "As shown",
+"hex": "#96B6CF"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-35.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/Whitney-houston-vintage-tee-blue3.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/whitney-houston-blue-collar.jpeg",
+],
+"tags": [
+"clothing",
+"men's shirts"
+],
+"inStock": true,
+"brand": "Casual Comfort",
+"stock": 1,
+"featured": false,
+"newArrival": false
+},
+{
+"id": "p_005",
+"slug": "guns-n-roses-vintage-tee-green",
+"name": "Guns N' Roses Vintage Tee - Green",
+"description": "A vintage-style green graphic T-shirt featuring Guns N' Roses. The design showcases the band's name in bold lettering, a black-and-white live performance photo, and the iconic four-member portrait arrangement inspired by 'Appetite for Destruction'. Perfect for classic rock fans.",
+"details": [
+"Brand: Vintage Rock Tees",
+"clothing, men's t-shirts",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 35000,
+"compareAtPrice": 35000,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"XXL"
+],
+"colors": [
+{
+"name": "As shown",
+"hex": "#96B6CF"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-32.jpeg"
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-33.jpeg"
+],
+"tags": [
+"clothing",
+"men's shirts"
+],
+"inStock": true,
+"brand": "Urban Chic",
+"stock": 1,
+"featured": false,
+"newArrival": false
+},
+{
+"id": "p_013",
+"slug": "vintage-salt-n-pepa-rap-tee-white",
+"name": "Vintage Salt-N-Pepa Rap T-shirt",
+"description": "Own a piece of hip-hop history. This vintage Salt-N-Pepa graphic tee is the ultimate nod to the golden era of female rap. Printed on a classic white cotton t-shirt, the front features a vibrant, high-contrast image of Salt, Pepa, and DJ Spinderella rocking their iconic 'Idol Maker' leather jackets — the very same style made famous in their legendary 'Push It' era. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
+"details": [
+"Brand: Salt-N-Pepa",
+"vintage tees, rap tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 25000,
+"category": "shirts",
+"collection": "Vintage Hip Hop Tees",
+"sizes": [
+"S"
+],
+"colors": [
+{
+"name": "White",
+"hex": "#f5f5f5"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-1.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-14.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-13.jpeg"
+],
+"tags": [
+"vintage",
+"rap tee",
+"90s",
+"hip-hop",
+"salt-n-pepa",
+"streetwear"
+],
+"inStock": true,
+"brand": "Salt-N-Pepa",
+"stock": 1,
+"featured": true,
+"newArrival": true
+},
+{
+"id": "p_014",
+"slug": "vintage-outkast-south-got-something-to-say-rap-tee-blue",
+"name": "Vintage Outkast \"The South Got Something To Say\" Rap T-shirt",
+"description": "The South got something to say — and this tee says it loud. This vintage Outkast graphic tee is a true piece of Southern hip-hop history. Printed on a classic blue cotton t-shirt, the front features a vibrant, high-contrast image of André 3000 and Big Boi with the iconic phrase 'The South Got Something To Say' — a direct nod to André 3000's legendary 1995 Source Awards speech that helped put Atlanta on the map. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
+"details": [
+"Brand: Outkast",
+"vintage tees, rap tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 25000,
+"category": "shirts",
+"collection": "Vintage Hip Hop Tees",
+"sizes": [
+"S"
+],
+"colors": [
+{
+"name": "Blue",
+"hex": "#3a6ea5"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-6.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-19.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-18.jpeg"
+],
+"tags": [
+"vintage",
+"rap tee",
+"90s",
+"hip-hop",
+"outkast",
+"streetwear"
+],
+"inStock": true,
+"brand": "Outkast",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_015",
+"slug": "vintage-naughty-by-nature-rap-tee-white",
+"name": "Vintage Naughty by Nature Rap T-Shirt",
+"description": "Hip-hop hooray — this tee is a genuine piece of 90s rap history. This vintage Naughty by Nature graphic tee features a bold, high-contrast print of Treach, Vin Rock, and DJ Kay Gee in their signature streetwear, with a red brushstroke backdrop and a baseball bat graphic anchoring the bottom. Named after the New Jersey neighborhood they grew up in, Naughty by Nature defined East Coast hip-hop in the early 90s with anthems like 'O.P.P.' and 'Hip Hop Hooray.' A true vintage piece with the perfect worn-in softness that only comes with time.",
+"details": [
+"Brand: Naughty by Nature",
+"vintage tees, rap tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 25000,
+"category": "shirts",
+"collection": "Vintage Hip Hop Tees",
+"sizes": [
+"S"
+],
+"colors": [
+{
+"name": "White",
+"hex": "#f5f5f5"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-9.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-24.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-22.jpeg"
+],
+"tags": [
+"vintage",
+"rap tee",
+"90s",
+"hip-hop",
+"naughty by nature",
+"streetwear"
+],
+"inStock": true,
+"brand": "Naughty by Nature",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_016",
+"slug": "vintage-beastie-boys-check-your-head-rap-tee-black",
+"name": "Vintage Beastie Boys \"Check Your Head\" Rap T-Shirt",
+"description": "Check your head — this tee is a genuine piece of 90s hip-hop history. This vintage Beastie Boys graphic tee features a bold blue print of the trio's name and album title framing a classic black-and-white photo from their 'Check Your Head' era. Released in 1992, the album marked a pivotal shift for the Beastie Boys, blending punk, funk, and jazz into a sound that would define their legacy. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
+"details": [
+"Brand: Beastie Boys",
+"vintage tees, rap tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 15000,
+"category": "shirts",
+"collection": "Vintage Hip Hop Tees",
+"sizes": [
+"M"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/2003.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-12.jpeg"
+],
+"tags": [
+"vintage",
+"rap tee",
+"90s",
+"hip-hop",
+"beastie boys",
+"streetwear"
+],
+"inStock": true,
+"brand": "Beastie Boys",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_019",
+"slug": "vintage-dmx-rap-tee-black",
+"name": "Vintage DMX Rap Tee – 90s Hip-Hop Black T-Shirt – Rare Retro Ruff Ryders Graphic",
+"description": "Stop, drop, shut 'em down this new to you vintage t-shirt is a genuine piece of 90s hip-hop history. This vintage DMX graphic tee features a high-contrast black-and-white print of the rapper mid-performance, gripping a mic with both hands, framed by the iconic pink gothic 'DMX' logo beneath. One of the most raw and influential voices in East Coast hip-hop, DMX defined the late 90s with anthems like 'Ruff Ryders' Anthem,' 'Party Up,' and 'X Gon' Give It to Ya.' A true vintage piece with the perfect worn-in softness that only comes with time.",
+"details": [
+"Brand: DMX",
+"vintage tees, rap tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 25000,
+"category": "shirts",
+"collection": "Vintage Hip Hop Tees",
+"sizes": [
+"XS"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-8.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/2047.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-23.jpeg"
+],
+"tags": [
+"vintage",
+"rap tee",
+"90s",
+"hip-hop",
+"dmx",
+"streetwear"
+],
+"inStock": true,
+"brand": "DMX",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_023",
+"slug": "vintage-michael-jackson-beat-it-tee-black",
+"name": "Vintage Michael Jackson \"Beat It\" T-Shirt",
+"description": "Just beat it, in this new to you vintage female t-shirt. This vintage Michael Jackson graphic tee features a bold gold glitter-style 'BEAT IT' print framing the King of Pop himself in his iconic red zipper jacket and silver glove from the legendary 'Beat It' music video. Released in 1983 as part of the record-breaking Thriller album, the song and its video helped define the MTV era and cemented Michael Jackson as the biggest pop star on the planet. A true vintage piece with the perfect worn-in softness that only comes with time.",
+"details": [
+"Brand: Michael Jackson",
+"vintage tees, music tees, 80s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 35000,
+"category": "shirts",
+"collection": "Vintage RNB Tees",
+"sizes": [
+"M"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-4.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/1980.jpeg"
+],
+"tags": [
+"vintage",
+"music tee",
+"80s",
+"pop",
+"michael jackson",
+"streetwear"
+],
+"inStock": true,
+"brand": "Michael Jackson",
+"stock": 1,
+"featured": true,
+"newArrival": true
+},
+{
+"id": "p_035",
+"slug": "vintage-a-tribe-called-quest-rap-tee-black",
+"name": "Vintage A Tribe Called Quest Rap T-Shirt",
+"description": "Can I kick it? Yes you can — in this tee. This vintage A Tribe Called Quest graphic tee features a bold, multi-color print of the group's name in a stylized graffiti font above a black-and-white portrait of Q-Tip, Phife Dawg, Ali Shaheed Muhammad, and Jarobi White. A true nod to the Native Tongues collective and the golden era of alternative hip-hop, this piece captures the era that gave us 'Bonita Applebum,' 'Scenario,' and 'Electric Relaxation.' A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
+"details": [
+"Brand: A Tribe Called Quest",
+"vintage tees, rap tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 25000,
+"category": "shirts",
+"collection": "Vintage Hip Hop Tees",
+"sizes": [
+"M"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-11.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-10.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/2062.jpeg"
+],
+"tags": [
+"vintage",
+"rap tee",
+"90s",
+"hip-hop",
+"a tribe called quest",
+"streetwear"
+],
+"inStock": true,
+"brand": "A Tribe Called Quest",
+"stock": 1,
+"featured": true,
+"newArrival": true
+},
+{
+"id": "p_041",
+"slug": "vintage-outkast-atliens-rap-tee-black",
+"name": "Vintage Outkast \"ATLiens\" Rap T-Shirt",
+"description": "Stank you very much — this tee is a genuine piece of Southern hip-hop history. This vintage Outkast graphic tee features an illustrated print of André 3000 and Big Boi riding in a classic Cadillac, with purple flames, a crown motif, and the word 'ATLiens' on the license plate — a direct nod to their landmark 1996 album. A true vintage piece with the perfect worn-in softness and slight fading that only comes with time.",
+"details": [
+"Brand: Outkast",
+"vintage tees, rap tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 25000,
+"category": "shirts",
+"collection": "Vintage Hip Hop Tees",
+"sizes": [
+"L"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-7.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-21.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-20.jpeg"
+],
+"tags": [
+"vintage",
+"rap tee",
+"90s",
+"hip-hop",
+"outkast",
+"streetwear"
+],
+"inStock": true,
+"brand": "Outkast",
+"stock": 1,
+"featured": true,
+"newArrival": true
+},
+{
+"id": "p_042",
+"slug": "whitney-houston-i-will-always-love-you-vintage-tee",
+"name": "Whitney Houston \"I Will Always Love You\" Vintage Tee",
+"description": "A vintage-style black graphic T-shirt celebrating the legendary Whitney Houston. The design features a vibrant image of Whitney smiling and pointing, dressed in a black turtleneck, set against a blue spotlight background. Her name 'WHITNEY' and 'HOUSTON' are printed in bold, light blue varsity-style lettering at the top and bottom. The iconic song title 'I Will Always Love You' is written in white script across the center. A perfect tribute to the legendary singer.",
+"details": [
+"Brand: Whitney Houston",
+"vintage tees, music tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 35000,
+"category": "shirts",
+"collection": "Vintage RNB Tees",
+"sizes": [
+"M"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/whitney-houston-vintage-tee-blue-black-1.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/whitney-houston-vintage-tee-blue-black-2.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/whitney-houston-vintage-tee-blue-black-3.jpeg"
+],
+"tags": [
+"vintage",
+"music tee",
+"90s",
+"pop",
+"whitney houston",
+"streetwear"
+],
+"inStock": true,
+"brand": "Whitney Houston",
+"stock": 1,
+"featured": true,
+"newArrival": true
+},
+{
+"id": "p_043",
+"slug": "whitney-houston-pink-graphic-vintage-tee",
+"name": "Whitney Houston Pink Graphic Vintage Tee",
+"description": "A vintage-style blue graphic T-shirt featuring the legendary Whitney Houston. The design showcases a vibrant, smiling image of Whitney in a black tank-top, set against a bold pink background filled with her signature in white script. The shirt has a distressed, worn-in look, adding to its vintage aesthetic. Perfect for fans of classic pop and R&B.",
+"details": [
+"Brand: Whitney Houston",
+"vintage tees, music tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 32000,
+"category": "shirts",
+"collection": "Vintage RNB Tees",
+"sizes": [
+"M"
+],
+"colors": [
+{
+"name": "Blue",
+"hex": "#3a6ea5"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-31.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/6073.jpeg"
+],
+"tags": [
+"vintage",
+"music tee",
+"90s",
+"pop",
+"whitney houston",
+"streetwear"
+],
+"inStock": true,
+"brand": "Whitney Houston",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_044",
+"slug": "whitney-houston-white-portrait-vintage-tee",
+"name": "Whitney Houston White Portrait Vintage Tee",
+"description": "A classic white graphic T-shirt featuring a stunning black-and-white portrait of Whitney Houston. The design captures her smiling with her eyes closed, hand gently raised, with a white script signature overlaying the image. The word 'So Emotional' is printed in bold blue serif lettering above the portrait. A beautiful and timeless tribute to the iconic singer.",
+"details": [
+"Brand: Whitney Houston",
+"vintage tees, music tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 30000,
+"category": "shirts",
+"collection": "Vintage RNB Tees",
+"sizes": [
+"S"
+],
+"colors": [
+{
+"name": "White",
+"hex": "#f5f5f5"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-185.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/6085.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/6086.jpg"
+],
+"tags": [
+"vintage",
+"music tee",
+"90s",
+"pop",
+"whitney houston",
+"streetwear"
+],
+"inStock": true,
+"brand": "Whitney Houston",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_045",
+"slug": "whitney-houston-black-grey-vintage-tee",
+"name": "Whitney Houston Vintage Black Tee",
+"description": "A black & grey graphic T-shirt featuring a vibrant, 80s-inspired design of Whitney Houston. The image shows her in a black shirt. The word 'WHITNEY' is printed vertically in bright re letters down the left side. A perfect retro piece for fans of the 80s era.",
+"details": [
+"Brand: Whitney Houston",
+"vintage tees, music tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 30000,
+"category": "shirts",
+"collection": "Vintage RNB Tees",
+"sizes": [
+"L"
+],
+"colors": [
+{
+"name": "Grey",
+"hex": "#d3d3d3"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-181.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/whitney-houston-vintage-tee-black-grey-2.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-183.jpeg"
+],
+"tags": [
+"vintage",
+"music tee",
+"90s",
+"pop",
+"whitney houston",
+"streetwear"
+],
+"inStock": true,
+"brand": "Whitney Houston",
+"stock": 1,
+"featured": true,
+"newArrival": true
+},
+{
+"id": "p_047",
+"slug": "guns-n-roses-welcome-to-the-jungle-vintage-tee",
+"name": "Guns N' Roses \"Welcome To The Jungle\" Vintage Tee",
+"description": "A dark grey graphic T-shirt featuring the iconic Guns N' Roses song title. The text 'WELCOME TO THE JUNGLE' is printed in a distressed, red font, with two small red roses flanking the words 'TO THE'. The band's name is printed in a subtle black font below. A classic piece for rock fans.",
+"details": [
+"Brand: Guns N' Roses",
+"vintage tees, rock tees, 80s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 2800,
+"compareAtPrice": 3500,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"L"
+],
+"colors": [
+{
+"name": "Dark Grey",
+"hex": "#333333"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/guns-n-roses-welcome-to-the-jungle-tee-shirt.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/close-welcome-to-the-jungle-guns-n-roses-tee.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/size-welcome-to-the-jungle-tee-shirt.jpg"
+],
+"tags": [
+"vintage",
+"rock tee",
+"80s",
+"guns n' roses",
+"streetwear"
+],
+"inStock": true,
+"brand": "Guns N' Roses",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_048",
+"slug": "guns-n-roses-classic-logo-vintage-tee",
+"name": "Guns N' Roses Classic Logo Vintage Tee",
+"description": "A black graphic T-shirt featuring the classic Guns N' Roses logo. The design includes the iconic circular emblem with a yellow border, a central image of two crossed pistols wrapped in roses, and the band's name in bold black lettering around the circle. A timeless piece of rock merchandise.",
+"details": [
+"Brand: Guns N' Roses",
+"vintage tees, rock tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 25000,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"XXL"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-185-1.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/3813182690642781124.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/1915483719979162601.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/920229119940087995-2.jpg",
+],
+"tags": [
+"vintage",
+"rock tee",
+"90s",
+"guns n' roses",
+"streetwear"
+],
+"inStock": true,
+"brand": "Guns N' Roses",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_049",
+"slug": "guns-n-roses-skull-logo-vintage-tee",
+"name": "Guns N' Roses Skull Logo Vintage Tee",
+"description": "A black graphic T-shirt featuring a bold Guns N' Roses design. The central image is a stylized skull wearing a top hat, with crossed pistols and a rose behind it. The band's name is printed in a yellow banner across the skull. A classic and edgy piece for fans of the band.",
+"details": [
+"Brand: Guns N' Roses",
+"vintage tees, rock tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 3000,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"XXL"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-184.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/black-guns-n-roses-vintage-skull-tee.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/guns-n-roses-vintage-skull-tee-shirt.jpg"
+],
+"tags": [
+"vintage",
+"rock tee",
+"90s",
+"guns n' roses",
+"streetwear"
+],
+"inStock": true,
+"brand": "Guns N' Roses",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_050",
+"slug": "guns-n-roses-use-your-illusion-tie-dye-tee",
+"name": "Guns N' Roses \"Use Your Illusion\" Tie-Dye Tee",
+"description": "A vibrant pink and white tie-dye graphic T-shirt featuring the Guns N' Roses 'Use Your Illusion' artwork. The design includes the letters 'GNR' in blue and purple with a red rose and a silver revolver. The album title 'USE YOUR ILLUSION' is printed in yellow and orange lettering below. A bold and colorful piece for any rock fan.",
+"details": [
+"Brand: Guns N' Roses",
+"vintage tees, rock tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 3800,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"L"
+],
+"colors": [
+{
+"name": "Pink",
+"hex": "#ff69b4"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/guns-n-roses-pink-vintage-tee.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/front-guns-n-roses-pink-tee.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/back-guns-n-roses-pink-tee-shirt-far.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/size-guns-n-roses-pink-tee.jpg"
+],
+"tags": [
+"vintage",
+"rock tee",
+"90s",
+"guns n' roses",
+"tie-dye"
+],
+"inStock": true,
+"brand": "Guns N' Roses",
+"stock": 1,
+"featured": true,
+"newArrival": true
+},
+{
+"id": "p_051",
+"slug": "guns-n-roses-not-in-this-lifetime-vintage-tee",
+"name": "Guns N' Roses \"Not In This Lifetime\" Vintage Tee",
+"description": "A black graphic T-shirt featuring the Guns N' Roses 'Not In This Lifetime' tour design. The classic circular logo is splattered with red paint, and the tour name is printed in a jagged red font across the bottom. A must-have for fans who caught the reunion tour.",
+"details": [
+"Brand: Guns N' Roses",
+"vintage tees, rock tees, 2010s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 3200,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"L"
+],
+"colors": [
+{
+"name": "Black",
+"hex": "#1a1a1a"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/guns-n-roses-vintage-new-to-you-shirt.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/guns-n-roses-vintage-tee-for-sale.jpg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/guns-n-roses-vintage-tee.jpg"
+],
+"tags": [
+"vintage",
+"rock tee",
+"guns n' roses",
+"streetwear"
+],
+"inStock": true,
+"brand": "Guns N' Roses",
+"stock": 1,
+"featured": false,
+"newArrival": true
+},
+{
+"id": "p_052",
+"slug": "guns-n-roses-sweet-child-o-mine-tie-dye-tee",
+"name": "Guns N' Roses \"Sweet Child O' Mine\" Tie-Dye Tee",
+"description": "A black and orange tie-dye graphic T-shirt featuring the Guns N' Roses song 'Sweet Child O' Mine'. The band's name is printed in yellow, and the song title circles the classic logo emblem. A unique and vibrant piece for fans of the band.",
+"details": [
+"Brand: Guns N' Roses",
+"vintage tees, rock tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 28000,
+"compareAtPrice": 30000,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"L"
+],
+"colors": [
+{
+"name": "Black/Orange",
+"hex": "#ff8c00"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-34.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/5819-1.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-36.jpeg"
+],
+"tags": [
+"vintage",
+"rock tee",
+"90s",
+"guns n' roses",
+"tie-dye"
+],
+"inStock": true,
+"brand": "Guns N' Roses",
+"stock": 1,
+"featured": true,
+"newArrival": true
+},
+{
+"id": "p_053",
+"slug": "guns-n-roses-green-tie-dye-logo-tee",
+"name": "Guns N' Roses Green Tie-Dye Logo Tee",
+"description": "A green and black tie-dye graphic T-shirt featuring the classic Guns N' Roses logo. The circular emblem with crossed pistols and roses is printed in a distressed white and grey style. A unique and stylish piece for fans of the band.",
+"details": [
+"Brand: Guns N' Roses",
+"vintage tees, rock tees, 90s streetwear",
+"1 in stock",
+"Ships in 2–4 business days"
+],
+"price": 28000,
+"compareAtPrice": 32000,
+"category": "shirts",
+"collection": "Vintage Rock Tees",
+"sizes": [
+"XXL"
+],
+"colors": [
+{
+"name": "Green",
+"hex": "#008000"
+}
+],
+"images": [
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-32.jpeg",
+"https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-33.jpeg"
+],
+"tags": [
+"vintage",
+"rock tee",
+"90s",
+"guns n' roses",
+"tie-dye"
+],
+"inStock": true,
+"brand": "Guns N' Roses",
+"stock": 1,
+"featured": false,
+"newArrival": true
+}
 ]
