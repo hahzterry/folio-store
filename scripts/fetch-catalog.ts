@@ -7,9 +7,6 @@
  * runs fully offline — the network is only needed to (re)generate the catalog.
  *
  *   npm run catalog        # re-fetch and rebuild catalog.json
- *
- * DummyJSON gives us real titles, descriptions, prices, discounts, ratings,
- * reviews, stock and (importantly) reliable product photography.
  */
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
@@ -50,11 +47,6 @@ const COLOR_WORDS: Record<string, string> = {
 
 /**
  * Artist → collection mapping for our vintage tee storefront.
- *
- * DummyJSON's catalog is generic fashion, so we classify by keywords found
- * in the product title, description and tags. Anything that doesn't match
- * a known artist falls through to "Vintage Hip Hop Tees" as the default,
- * since that's the store's primary focus.
  */
 const COLLECTION_KEYWORDS: Record<string, string[]> = {
   "Vintage Hip Hop Tees": [
@@ -145,13 +137,6 @@ const COLLECTION_KEYWORDS: Record<string, string[]> = {
   ],
 };
 
-interface DummyReview {
-  rating: number;
-  comment: string;
-  reviewerName: string;
-  date: string;
-}
-
 interface DummyProduct {
   id: number;
   title: string;
@@ -165,7 +150,6 @@ interface DummyProduct {
   brand?: string | null;
   images: string[];
   thumbnail: string;
-  reviews?: DummyReview[];
   meta?: { createdAt?: string };
 }
 
@@ -197,10 +181,6 @@ function colorsFromTitle(title: string): { name: string; hex: string }[] {
   return found.length ? found : [{ name: "As shown", hex: "#9aa0a6" }];
 }
 
-/**
- * Classify a product into one of our three vintage collections by scanning
- * its title, description and tags for known artist/genre keywords.
- */
 function collectionFor(p: DummyProduct): string {
   const haystack =
     `${p.title} ${p.description} ${p.tags.join(" ")}`.toLowerCase();
@@ -210,9 +190,7 @@ function collectionFor(p: DummyProduct): string {
       return collection;
     }
   }
-
-  // Default bucket — the store's primary focus.
-  return "Vintage Hip Hop Tees";
+  return "Vintage Hip Hop Tees"; // Default bucket
 }
 
 async function fetchCategory(cat: string): Promise<DummyProduct[]> {
@@ -239,33 +217,18 @@ async function main() {
     return slug;
   };
 
-  // Highest-rated products become "featured" on the home page.
-  const ratingThreshold = [...raw].map((p) => p.rating).sort((a, b) => b - a)[
-    Math.min(7, raw.length - 1)
-  ];
-
   // Final (post-discount) price in cents.
   const finalPrice = (p: DummyProduct) => {
-    const list = Math.round(p.price * 100);
     return p.discountPercentage >= 8
       ? Math.round(p.price * (1 - p.discountPercentage / 100) * 100)
-      : list;
+      : Math.round(p.price * 100);
   };
 
   const products = raw
     .sort((a, b) => a.id - b.id)
     .map((p, i) => {
       const category = CATEGORY_MAP[p.category] ?? "shirts";
-      const listCents = Math.round(p.price * 100);
-      const onSale = p.discountPercentage >= 8;
       const priceCents = finalPrice(p);
-
-      const reviews = (p.reviews ?? []).slice(0, 3).map((r) => ({
-        rating: r.rating,
-        comment: r.comment,
-        reviewerName: r.reviewerName,
-        date: r.date,
-      }));
 
       return {
         id: `p_${String(i + 1).padStart(3, "0")}`,
@@ -279,7 +242,6 @@ async function main() {
           "Ships in 2–4 business days",
         ],
         price: priceCents,
-        ...(onSale ? { compareAtPrice: listCents } : {}),
         category,
         collection: collectionFor(p),
         sizes: sizesFor(category),
@@ -287,12 +249,9 @@ async function main() {
         images: p.images.slice(0, 4),
         tags: p.tags,
         inStock: p.stock > 0,
-        rating: Math.round(p.rating * 100) / 100,
-        reviewCount: reviews.length,
-        reviews,
         brand: p.brand ?? null,
         stock: p.stock,
-        featured: p.rating >= ratingThreshold,
+        featured: i < 8, // Feature the first 8 items
         newArrival: i % 5 === 0,
       };
     });
@@ -300,15 +259,6 @@ async function main() {
   const out = join(process.cwd(), "src/lib/data/catalog.json");
   await writeFile(out, JSON.stringify(products, null, 2) + "\n", "utf8");
   console.log(`Wrote ${products.length} products → ${out}`);
-
-  const counts: Record<string, number> = {};
-  for (const p of products) counts[p.category] = (counts[p.category] ?? 0) + 1;
-  console.log("By category:", counts);
-
-  const collectionCounts: Record<string, number> = {};
-  for (const p of products)
-    collectionCounts[p.collection] = (collectionCounts[p.collection] ?? 0) + 1;
-  console.log("By collection:", collectionCounts);
 }
 
 main().catch((err) => {

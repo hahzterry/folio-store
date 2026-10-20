@@ -23,7 +23,8 @@ const SIZES: Size[] = ["XS", "S", "M", "L", "XL", "XXL"];
 
 const PAGE_SIZE = 12;
 
-type Sort = "featured" | "price-asc" | "price-desc" | "new" | "rating";
+// "rating" removed from the Sort union.
+type Sort = "featured" | "price-asc" | "price-desc" | "new";
 
 const PRICE_RANGES = [
   { key: "all", label: "All prices", min: 0, max: Infinity },
@@ -33,20 +34,11 @@ const PRICE_RANGES = [
   { key: "over-500", label: "$500 & up", min: 50000, max: Infinity },
 ] as const;
 
-const RATINGS = [
-  { value: 4.5, label: "4.5★ & up" },
-  { value: 4, label: "4★ & up" },
-  { value: 3, label: "3★ & up" },
-] as const;
-
 export function ShopClient({ products }: { products: Product[] }) {
   const params = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
 
-  // The URL is the single source of truth for category & collection, so header
-  // links and back/forward navigation stay in sync even when ShopClient is
-  // already mounted (a soft navigation that wouldn't re-run useState).
   const category = params.get("category") ?? "all";
   const collection = params.get("collection") ?? "all";
   const query = params.get("q")?.trim() ?? "";
@@ -54,19 +46,18 @@ export function ShopClient({ products }: { products: Product[] }) {
   const [sizes, setSizes] = useState<Set<string>>(new Set());
   const [sort, setSort] = useState<Sort>("featured");
   const [priceKey, setPriceKey] = useState<string>("all");
-  const [minRating, setMinRating] = useState(0);
   const [inStockOnly, setInStockOnly] = useState(false);
   const [brand, setBrand] = useState("all");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [visible, setVisible] = useState(PAGE_SIZE);
 
+  // minRating removed from active filter count.
   const activeFilterCount =
     (category !== "all" ? 1 : 0) +
     (collection !== "all" ? 1 : 0) +
     (brand !== "all" ? 1 : 0) +
     sizes.size +
     (priceKey !== "all" ? 1 : 0) +
-    (minRating > 0 ? 1 : 0) +
     (inStockOnly ? 1 : 0);
 
   const activeCategory = CATEGORIES.find((c) => c.slug === category);
@@ -75,9 +66,6 @@ export function ShopClient({ products }: { products: Product[] }) {
     ? `“${query}”`
     : (activeCategory?.name ?? activeCollection?.name ?? "All products");
 
-  // Catalog is served from /api/products via TanStack Query. The server-rendered
-  // list is passed as initialData so the first paint has no loading flash, while
-  // subsequent navigation/refetches are cached by React Query.
   const { data: catalog = products, isFetching } = useProducts({}, products);
 
   const brands = useMemo(
@@ -111,7 +99,7 @@ export function ShopClient({ products }: { products: Product[] }) {
       out = out.filter(
         (p) => p.price >= priceRange.min && p.price < priceRange.max,
       );
-    if (minRating > 0) out = out.filter((p) => (p.rating ?? 0) >= minRating);
+    // minRating filter removed.
     if (inStockOnly) out = out.filter((p) => p.inStock);
     if (query) out = searchProducts(out, query);
     switch (sort) {
@@ -124,9 +112,7 @@ export function ShopClient({ products }: { products: Product[] }) {
       case "new":
         out.sort((a, b) => Number(!!b.newArrival) - Number(!!a.newArrival));
         break;
-      case "rating":
-        out.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
-        break;
+      // rating case removed.
       default:
         out.sort((a, b) => Number(!!b.featured) - Number(!!a.featured));
     }
@@ -140,11 +126,9 @@ export function ShopClient({ products }: { products: Product[] }) {
     sort,
     query,
     priceKey,
-    minRating,
     inStockOnly,
   ]);
 
-  // Reset paging whenever the result set changes.
   useEffect(() => setVisible(PAGE_SIZE), [filtered]);
 
   const updateUrl = (key: string, value: string) => {
@@ -158,7 +142,6 @@ export function ShopClient({ products }: { products: Product[] }) {
     setSizes(new Set());
     setSort("featured");
     setPriceKey("all");
-    setMinRating(0);
     setInStockOnly(false);
     setBrand("all");
     router.replace(pathname, { scroll: false });
@@ -176,7 +159,6 @@ export function ShopClient({ products }: { products: Product[] }) {
         </p>
       </div>
 
-      {/* Mobile filter toggle */}
       <button
         onClick={() => setFiltersOpen((o) => !o)}
         className="mb-6 flex w-full items-center justify-between border border-border px-4 py-3 text-xs uppercase tracking-widest lg:hidden"
@@ -195,7 +177,6 @@ export function ShopClient({ products }: { products: Product[] }) {
       </button>
 
       <div className="grid gap-10 lg:grid-cols-[220px_1fr]">
-        {/* Sidebar filters */}
         <aside
           className={cn("space-y-8 lg:block", filtersOpen ? "block" : "hidden")}
         >
@@ -345,43 +326,7 @@ export function ShopClient({ products }: { products: Product[] }) {
 
           <Separator />
 
-          <div>
-            <p className="text-xs uppercase tracking-widest text-muted-foreground">
-              Rating
-            </p>
-            <ul className="mt-3 space-y-2 text-sm">
-              <li>
-                <button
-                  onClick={() => setMinRating(0)}
-                  className={cn(
-                    "transition-colors hover:text-foreground",
-                    minRating === 0
-                      ? "text-foreground underline underline-offset-4"
-                      : "text-muted-foreground",
-                  )}
-                >
-                  Any rating
-                </button>
-              </li>
-              {RATINGS.map((r) => (
-                <li key={r.value}>
-                  <button
-                    onClick={() => setMinRating(r.value)}
-                    className={cn(
-                      "transition-colors hover:text-foreground",
-                      minRating === r.value
-                        ? "text-foreground underline underline-offset-4"
-                        : "text-muted-foreground",
-                    )}
-                  >
-                    {r.label}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <Separator />
+          {/* Entire Rating filter block removed */}
 
           <button
             onClick={() => setInStockOnly((v) => !v)}
@@ -406,7 +351,6 @@ export function ShopClient({ products }: { products: Product[] }) {
           )}
         </aside>
 
-        {/* Grid */}
         <div>
           <div className="mb-8 flex items-center justify-between gap-4">
             <p className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -424,7 +368,7 @@ export function ShopClient({ products }: { products: Product[] }) {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="featured">Featured</SelectItem>
-                <SelectItem value="rating">Top rated</SelectItem>
+                {/* "Top rated" option removed */}
                 <SelectItem value="new">Newest</SelectItem>
                 <SelectItem value="price-asc">Price · Low to high</SelectItem>
                 <SelectItem value="price-desc">Price · High to low</SelectItem>

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Star } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ProductImage } from "@/components/product-image";
 import { WishlistButton } from "@/components/wishlist-button";
@@ -8,15 +7,12 @@ import { formatPrice } from "@/lib/utils";
 import type { Product } from "@/types";
 
 export function ProductCard({ product }: { product: Product }) {
-  const onSale = !!product.compareAtPrice;
   const soldOut = product.inStock === false || product.stock === 0;
   const href = `/shop/${product.slug}`;
 
   return (
     <div className="group flex flex-col">
       <div className="relative aspect-[3/4] overflow-hidden bg-muted">
-        {/* Clickable image (separate from the overlay controls so we don't nest
-            interactive elements inside a link). */}
         <Link
           href={href}
           aria-label={product.name}
@@ -46,7 +42,6 @@ export function ProductCard({ product }: { product: Product }) {
           {product.newArrival && !soldOut && (
             <Badge variant="outline">New</Badge>
           )}
-          {onSale && !soldOut && <Badge variant="sale">Sale</Badge>}
         </div>
 
         <WishlistButton
@@ -67,18 +62,7 @@ export function ProductCard({ product }: { product: Product }) {
           </p>
         </div>
         <div className="flex flex-col items-end text-sm tabular-nums">
-          {onSale ? (
-            <>
-              <span className="text-destructive">
-                {formatPrice(product.price)}
-              </span>
-              <span className="text-xs text-muted-foreground line-through">
-                {formatPrice(product.compareAtPrice!)}
-              </span>
-            </>
-          ) : (
-            <span>{formatPrice(product.price)}</span>
-          )}
+          <span>{formatPrice(product.price)}</span>
         </div>
       </Link>
 
@@ -93,13 +77,6 @@ export function ProductCard({ product }: { product: Product }) {
             />
           ))}
         </div>
-        {product.rating != null && (
-          <div className="flex items-center gap-1 text-xs text-muted-foreground">
-            <Star className="h-3 w-3 fill-foreground text-foreground" />
-            <span className="text-foreground">{product.rating.toFixed(1)}</span>
-            {product.reviewCount ? <span>({product.reviewCount})</span> : null}
-          </div>
-        )}
       </div>
     </div>
   );

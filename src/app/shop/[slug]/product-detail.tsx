@@ -10,7 +10,6 @@ import {
   Truck,
   RotateCcw,
   ShieldCheck,
-  Star,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { WishlistButton } from "@/components/wishlist-button";
@@ -32,7 +31,6 @@ export function ProductDetail({ product }: { product: Product }) {
   const [quantity, setQuantity] = useState(1);
   const add = useCart((s) => s.add);
 
-  const onSale = !!product.compareAtPrice;
   const maxQty = product.stock ?? Infinity;
   const soldOut = product.inStock === false || maxQty === 0;
 
@@ -109,46 +107,14 @@ export function ProductDetail({ product }: { product: Product }) {
         <h1 className="mt-3 font-serif text-4xl">{product.name}</h1>
 
         <div className="mt-4 flex items-baseline gap-3">
-          <span
-            className={cn("text-lg tabular-nums", onSale && "text-destructive")}
-          >
+          <span className="text-lg tabular-nums">
             {formatPrice(product.price)}
           </span>
-          {onSale && (
-            <span className="text-sm text-muted-foreground line-through">
-              {formatPrice(product.compareAtPrice!)}
-            </span>
-          )}
         </div>
 
-        {/* Rating + meta */}
-        {(product.rating != null || product.brand || product.stock != null) && (
+        {/* Brand + stock meta */}
+        {(product.brand || product.stock != null) && (
           <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs">
-            {product.rating != null && (
-              <div className="flex items-center gap-1.5">
-                <div className="flex">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star
-                      key={i}
-                      className={cn(
-                        "h-3.5 w-3.5",
-                        i < Math.round(product.rating!)
-                          ? "fill-foreground text-foreground"
-                          : "text-muted-foreground/40",
-                      )}
-                    />
-                  ))}
-                </div>
-                <span className="tabular-nums">
-                  {product.rating.toFixed(1)}
-                </span>
-                {product.reviewCount ? (
-                  <span className="text-muted-foreground">
-                    ({product.reviewCount} reviews)
-                  </span>
-                ) : null}
-              </div>
-            )}
             {product.brand && (
               <span className="text-muted-foreground">
                 by <span className="text-foreground">{product.brand}</span>
@@ -303,45 +269,6 @@ export function ProductDetail({ product }: { product: Product }) {
               </ul>
             </AccordionContent>
           </AccordionItem>
-          {product.reviews && product.reviews.length > 0 && (
-            <AccordionItem value="reviews">
-              <AccordionTrigger>
-                Reviews ({product.reviews.length})
-              </AccordionTrigger>
-              <AccordionContent>
-                <ul className="space-y-4">
-                  {product.reviews.map((r, i) => (
-                    <li
-                      key={i}
-                      className="border-b border-border pb-4 last:border-0 last:pb-0"
-                    >
-                      <div className="flex items-center gap-2">
-                        <div className="flex">
-                          {Array.from({ length: 5 }).map((_, j) => (
-                            <Star
-                              key={j}
-                              className={cn(
-                                "h-3 w-3",
-                                j < r.rating
-                                  ? "fill-foreground text-foreground"
-                                  : "text-muted-foreground/40",
-                              )}
-                            />
-                          ))}
-                        </div>
-                        <span className="text-xs font-medium">
-                          {r.reviewerName}
-                        </span>
-                      </div>
-                      <p className="mt-2 text-sm text-muted-foreground">
-                        {r.comment}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </AccordionContent>
-            </AccordionItem>
-          )}
           <AccordionItem value="shipping">
             <AccordionTrigger>Shipping & returns</AccordionTrigger>
             <AccordionContent>

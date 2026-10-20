@@ -63,18 +63,25 @@ export function getProductBySlug(
 }
 
 /**
- * A diversified "edit" — the highest-rated product from each collection first,
+ * A diversified "edit" — the most "featured" product from each collection first,
  * then the next-best overall to fill the row. Keeps the home feature grid from
  * being dominated by a single collection (e.g. all hip hop).
  */
 export function getEditPicks(limit = 8, list: Product[] = PRODUCTS): Product[] {
-  const byRating = [...list].sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
+  // Sort by featured status first, then by price (as a proxy for "best")
+  const sorted = [...list].sort((a, b) => {
+    const featA = a.featured ? 1 : 0;
+    const featB = b.featured ? 1 : 0;
+    if (featA !== featB) return featB - featA;
+    return b.price - a.price;
+  });
+
   const picks: Product[] = [];
   const chosen = new Set<string>();
 
-  // One per collection, best-rated.
+  // One per collection, best-ranked.
   const seenCollection = new Set<string>();
-  for (const p of byRating) {
+  for (const p of sorted) {
     if (!seenCollection.has(p.collection)) {
       seenCollection.add(p.collection);
       picks.push(p);
@@ -82,7 +89,7 @@ export function getEditPicks(limit = 8, list: Product[] = PRODUCTS): Product[] {
     }
   }
   // Fill remaining slots with the next best overall.
-  for (const p of byRating) {
+  for (const p of sorted) {
     if (picks.length >= limit) break;
     if (!chosen.has(p.id)) {
       picks.push(p);
@@ -92,14 +99,21 @@ export function getEditPicks(limit = 8, list: Product[] = PRODUCTS): Product[] {
   return picks.slice(0, limit);
 }
 
-/** Representative cover image for a collection (its highest-rated product). */
+/** Representative cover image for a collection (its featured/highest-priced product). */
 export function getCollectionCoverImage(
   slug: string,
   list: Product[] = PRODUCTS,
 ): string | null {
   const items = list.filter((p) => slugify(p.collection) === slug);
   if (!items.length) return null;
-  const top = [...items].sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0))[0];
+
+  const top = [...items].sort((a, b) => {
+    const featA = a.featured ? 1 : 0;
+    const featB = b.featured ? 1 : 0;
+    if (featA !== featB) return featB - featA;
+    return b.price - a.price;
+  })[0];
+
   return top.images[0] ?? null;
 }
 

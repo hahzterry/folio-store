@@ -5,12 +5,6 @@ import { z } from "zod";
  * baked to JSON, so we parse it through this schema at load time — bad data
  * fails loudly at the boundary instead of producing `undefined`s deep in the UI.
  */
-export const reviewSchema = z.object({
-  rating: z.number(),
-  comment: z.string(),
-  reviewerName: z.string(),
-  date: z.string(),
-});
 
 export const colorSchema = z.object({
   name: z.string(),
@@ -36,7 +30,6 @@ export const productSchema = z.object({
   description: z.string(),
   details: z.array(z.string()),
   price: z.number().int().nonnegative(),
-  compareAtPrice: z.number().int().nonnegative().optional(),
   category: categorySchema,
   collection: collectionSchema,
   sizes: z.array(sizeSchema),
@@ -46,9 +39,6 @@ export const productSchema = z.object({
   inStock: z.boolean(),
   featured: z.boolean().optional(),
   newArrival: z.boolean().optional(),
-  rating: z.number().optional(),
-  reviewCount: z.number().optional(),
-  reviews: z.array(reviewSchema).optional(),
   brand: z.string().nullable().optional(),
   stock: z.number().optional(),
 });

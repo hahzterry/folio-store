@@ -2,7 +2,7 @@ import { cache } from "react";
 import { createClient } from "@supabase/supabase-js";
 import { env, isSupabaseConfigured } from "@/lib/env";
 import { PRODUCTS } from "./products";
-import type { Category, Product, Review, Size } from "@/types";
+import type { Category, Product, Size } from "@/types";
 
 /**
  * Catalog source of truth for server code.
@@ -25,7 +25,6 @@ interface ProductRecord {
   description: string;
   details: string[];
   price: number;
-  compare_at_price: number | null;
   category: string;
   collection: string;
   sizes: string[];
@@ -35,9 +34,6 @@ interface ProductRecord {
   in_stock: boolean;
   featured: boolean;
   new_arrival: boolean;
-  rating: number | null;
-  review_count: number | null;
-  reviews: Review[];
   brand: string | null;
   stock: number | null;
 }
@@ -50,7 +46,6 @@ function rowToProduct(r: ProductRecord): Product {
     description: r.description,
     details: r.details ?? [],
     price: r.price,
-    compareAtPrice: r.compare_at_price ?? undefined,
     category: r.category as Category,
     collection: r.collection,
     sizes: (r.sizes ?? []) as Size[],
@@ -60,9 +55,6 @@ function rowToProduct(r: ProductRecord): Product {
     inStock: r.in_stock,
     featured: r.featured || undefined,
     newArrival: r.new_arrival || undefined,
-    rating: r.rating ?? undefined,
-    reviewCount: r.review_count ?? undefined,
-    reviews: r.reviews ?? undefined,
     brand: r.brand ?? undefined,
     stock: r.stock ?? undefined,
   };

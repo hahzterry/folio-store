@@ -60,13 +60,6 @@ export default async function ProductPage({
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
     },
-    ...(product.rating && {
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: product.rating,
-        reviewCount: product.reviewCount ?? product.reviews?.length ?? 1,
-      },
-    }),
   };
 
   return (

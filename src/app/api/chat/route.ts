@@ -63,7 +63,6 @@ export async function POST(req: Request) {
                   category: m.category,
                   price: formatPrice(m.price),
                   image: m.images?.[0] ?? null,
-                  rating: m.rating,
                   inStock: m.in_stock,
                 }))
               : fuzzySearch(await getCatalog(), query)
@@ -75,7 +74,6 @@ export async function POST(req: Request) {
                     category: p.category,
                     price: formatPrice(p.price),
                     image: p.images[0] ?? null,
-                    rating: p.rating ?? null,
                     inStock: p.inStock,
                   }));
           return { query, items };

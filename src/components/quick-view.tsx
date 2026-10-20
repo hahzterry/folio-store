@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Eye, ShoppingBag, Star } from "lucide-react";
+import { Eye, ShoppingBag } from "lucide-react";
 import { toast } from "sonner";
 import {
   Dialog,
@@ -22,7 +22,6 @@ export function QuickView({ product }: { product: Product }) {
   const [size, setSize] = useState<Size | null>(null);
   const [color, setColor] = useState(product.colors[0]?.name ?? "");
   const add = useCart((s) => s.add);
-  const onSale = !!product.compareAtPrice;
   const soldOut = product.inStock === false || product.stock === 0;
 
   const handleAdd = () => {
@@ -83,25 +82,9 @@ export function QuickView({ product }: { product: Product }) {
             <h2 className="mt-1 font-serif text-2xl">{product.name}</h2>
 
             <div className="mt-3 flex items-center gap-3">
-              <span
-                className={cn(
-                  "text-lg tabular-nums",
-                  onSale && "text-destructive",
-                )}
-              >
+              <span className="text-lg tabular-nums">
                 {formatPrice(product.price)}
               </span>
-              {onSale && (
-                <span className="text-sm text-muted-foreground line-through">
-                  {formatPrice(product.compareAtPrice!)}
-                </span>
-              )}
-              {product.rating != null && (
-                <span className="ml-auto flex items-center gap-1 text-xs text-muted-foreground">
-                  <Star className="h-3 w-3 fill-foreground text-foreground" />
-                  {product.rating.toFixed(1)}
-                </span>
-              )}
             </div>
 
             <p className="mt-4 line-clamp-3 text-sm leading-relaxed text-muted-foreground">
