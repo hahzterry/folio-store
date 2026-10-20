@@ -52,7 +52,7 @@ export default async function HomePage() {
       {/* HERO */}
       <section className="relative h-[78vh] min-h-[560px] w-full overflow-hidden bg-muted">
         <Image
-          src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=2000&q=80"
+          src="https://lumeebooth.com/wp-content/uploads/2026/10/Vintage-Hip-Hop-Gold-Chain-Collage.png?auto=format&fit=crop&w=2000&q=80"
           alt="FOLIO Autumn/Winter editorial"
           fill
           priority
@@ -62,16 +62,15 @@ export default async function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/40" />
         <div className="container relative z-10 flex h-full flex-col justify-end pb-16 text-background">
           <p className="text-xs uppercase tracking-[0.32em] opacity-80">
-            A curated fashion edit
+            1 of 1 vintage tees, curated for you
           </p>
           <h1 className="mt-3 max-w-2xl font-serif text-5xl leading-[1.05] sm:text-6xl md:text-7xl">
-            The best of
+            Mr. Vintage T
             <br />
-            the brands you love.
+            approved tees.
           </h1>
           <p className="mt-5 max-w-md text-sm leading-relaxed opacity-90">
-            One considered place for shirts, dresses, footwear, watches and
-            accessories. Chosen, not crowded.
+            You can't find these new to you vintage tees anywhere else.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button
@@ -87,7 +86,9 @@ export default async function HomePage() {
               variant="outline"
               className="rounded-none border-background text-background hover:bg-background hover:text-foreground"
             >
-              <Link href="/shop?collection=signature">Explore Signature</Link>
+              <Link href="https://www.tiktok.com/@mrvintaget" target="_blank">
+                View TikTok
+              </Link>
             </Button>
           </div>
         </div>
