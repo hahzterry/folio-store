@@ -52,7 +52,7 @@ export default async function HomePage() {
       {/* HERO */}
       <section className="relative h-[78vh] min-h-[560px] w-full overflow-hidden bg-muted">
         <Image
-          src="https://lumeebooth.com/wp-content/uploads/2026/10/Vintage-Hip-Hop-Gold-Chain-Collage.png?auto=format&fit=crop&w=2000&q=80"
+          src="https://lumeebooth.com/wp-content/uploads/2026/10/mr-vintage-tee.png?auto=format&fit=crop&w=2000&q=80"
           alt="FOLIO Autumn/Winter editorial"
           fill
           priority
