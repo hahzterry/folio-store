@@ -4,14 +4,15 @@ import { Button } from "@/components/ui/button";
 
 export const metadata = {
   title: "Our story",
-  description: "FOLIO is a tightly edited selection of the labels we love.",
+  description:
+    "VINTATE aka Vintage Tee is a tightly edited selection of the vintage tees we love.",
 };
 
 const VALUES = [
   {
     id: "sourcing",
     title: "How we source",
-    body: "We don't make our own clothes. We curate. Every label in the shop is chosen by hand for its make, its materials, and how it holds up over time. If it wouldn't earn a place in our own wardrobe, it doesn't make the edit.",
+    body: "We don't make our own clothes. We found them left for dead in the back of thrift stores and estate sales. Every label in the shop is chosen by hand for its make, its materials, and how it holds up over time. If it wouldn't earn a place in our own wardrobe, it doesn't make the edit.",
   },
   {
     id: "sustainability",
@@ -21,7 +22,7 @@ const VALUES = [
   {
     id: "service",
     title: "Service",
-    body: "Free shipping over $200, free 30-day returns, and a team that actually answers. Every order is backed by our authenticity guarantee: what you see is exactly what arrives.",
+    body: "Free 30-day returns, and a team that actually answers. Every order is backed by our authenticity guarantee: what you see is exactly what arrives.",
   },
 ];
 
@@ -41,10 +42,10 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/50" />
         <div className="container relative z-10 flex h-full flex-col justify-end pb-12 text-background">
           <p className="text-xs uppercase tracking-[0.32em] opacity-80">
-            About FOLIO
+            About VINTATE
           </p>
           <h1 className="mt-3 max-w-2xl font-serif text-4xl leading-tight md:text-6xl">
-            The labels worth keeping.
+            The hand picked vintage tees you&apos;ve been looking for.
           </h1>
         </div>
       </section>
@@ -52,16 +53,18 @@ export default function AboutPage() {
       {/* Intro */}
       <section className="container max-w-3xl py-16">
         <p className="text-pretty font-serif text-2xl leading-snug md:text-3xl">
-          FOLIO is a tightly edited fashion store: a single place for the
-          shirts, dresses, footwear, watches and accessories we&apos;d actually
-          wear, from labels we trust.
+          You have vintage tees that are mass produced and you have vintage tees
+          that are hand picked and curated for you. VINTATE is a value comes
+          from our customers knowing they won't find these tees anywhere else.
         </p>
         <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-          We started FOLIO because shopping had become noise: endless tabs,
-          thousands of near-identical products, no point of view. Our answer is
-          restraint. We choose a small number of pieces, photograph them
-          honestly, and tell you exactly what you&apos;re getting: the real
-          price, the real reviews, the real stock.
+          Two brothers from New Jersey, who have a passion for vintage tees,
+          started VINTATE to bring you the best curated collection of vintage
+          tees. We scour the country to find the most unique and high-quality
+          pieces, ensuring that each tee we offer is one-of-a-kind. Our goal is
+          to provide our customers with a shopping experience that is both
+          enjoyable and rewarding, allowing them to express their individuality
+          through fashion.
         </p>
       </section>
 
