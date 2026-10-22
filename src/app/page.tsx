@@ -212,16 +212,15 @@ export default async function HomePage() {
         <div className="container grid items-center gap-12 md:grid-cols-2">
           <div>
             <p className="text-xs uppercase tracking-[0.32em] opacity-70">
-              The brief
+              The backstory
             </p>
             <h2 className="mt-4 max-w-md font-serif text-3xl leading-tight md:text-4xl">
-              Fewer labels. Better chosen. Quietly curated.
+              Less is more. Only 1 shirt exists in that style. We curate the
+              best vintage tees for you.
             </h2>
             <p className="mt-5 max-w-md text-sm leading-relaxed opacity-80">
-              We bring together a tight selection of the labels we love, across
-              shirting, dresses, footwear, watches and accessories. Every piece
-              earns its place: chosen for how it&apos;s made, how it wears, and
-              how long it lasts.
+              We bring together a tight selection of the vintage tees we love.
+              Every piece is historical, unique, and curated for you.
             </p>
             <Button
               asChild
@@ -234,8 +233,8 @@ export default async function HomePage() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1200&q=80"
-              alt="FOLIO editorial"
+              src="https://lumeebooth.com/wp-content/uploads/2026/10/photo-output-25.jpeg?auto=format&fit=crop&w=1200&q=80"
+              alt="VINTATE editorial"
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover"
