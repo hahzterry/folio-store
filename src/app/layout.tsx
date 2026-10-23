@@ -32,28 +32,20 @@ const description =
 export const metadata: Metadata = {
   metadataBase: new URL(appUrl),
   title: {
-    default: "FOLIO · A curated fashion edit",
-    template: "%s · FOLIO",
+    default: "VINTATE · curated vintage tees",
+    template: "%s · VINTATE",
   },
   description,
-  keywords: [
-    "fashion",
-    "ecommerce",
-    "curated",
-    "shirts",
-    "dresses",
-    "watches",
-    "accessories",
-  ],
+  keywords: ["vintage", "shirts", "tees", "t-shirts"],
   openGraph: {
-    title: "FOLIO · A curated fashion edit",
+    title: "VINTATE · curated vintage tees",
     description,
     type: "website",
-    siteName: "FOLIO",
+    siteName: "VINTATE",
   },
   twitter: {
     card: "summary_large_image",
-    title: "FOLIO · A curated fashion edit",
+    title: "VINTATE · curated vintage tees",
     description,
   },
 };

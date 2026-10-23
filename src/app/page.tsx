@@ -26,13 +26,13 @@ export default async function HomePage() {
     "@graph": [
       {
         "@type": "Organization",
-        name: "FOLIO",
+        name: "VINTATE",
         url: appUrl,
         logo: `${appUrl}/icon.svg`,
       },
       {
         "@type": "WebSite",
-        name: "FOLIO",
+        name: "VINTATE",
         url: appUrl,
         potentialAction: {
           "@type": "SearchAction",
@@ -53,7 +53,7 @@ export default async function HomePage() {
       <section className="relative h-[78vh] min-h-[560px] w-full overflow-hidden bg-muted">
         <Image
           src="https://lumeebooth.com/wp-content/uploads/2026/10/mr-vintage-tee.png?auto=format&fit=crop&w=2000&q=80"
-          alt="FOLIO Autumn/Winter editorial"
+          alt="VINTATE - 1 of 1 Vintage tees"
           fill
           priority
           sizes="100vw"

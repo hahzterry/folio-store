@@ -29,7 +29,7 @@ export function NewsletterForm() {
   const onSubmit = handleSubmit(async () => {
     // Simulated subscribe — swap for a real endpoint when wiring a provider.
     await new Promise((r) => setTimeout(r, 400));
-    toast.success("You're on the list. Welcome to FOLIO.");
+    toast.success("You're on the list. Welcome to VINTATE.");
     reset();
   });
 

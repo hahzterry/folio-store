@@ -50,7 +50,7 @@ const SECTIONS = [
     id: "terms",
     title: "Terms",
     body: [
-      "FOLIO is a demonstration storefront built as a personal project. Product data and imagery are sourced from public sample APIs for illustrative purposes.",
+      "VINTATE is a demonstration storefront built as a personal project. Product data and imagery are sourced from public sample APIs for illustrative purposes.",
       "No goods are actually sold or shipped.",
     ],
   },

@@ -68,7 +68,7 @@ export function Header() {
           <Link
             href="/"
             className="wordmark text-lg md:text-xl"
-            aria-label="FOLIO home"
+            aria-label="VINTATE home"
           >
             VINTATE
           </Link>

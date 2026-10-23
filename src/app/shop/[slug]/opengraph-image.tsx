@@ -5,7 +5,7 @@ import { formatPrice } from "@/lib/utils";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "FOLIO product";
+export const alt = "VINTATE product";
 
 /**
  * The catalog's photos are webp, which satori can't decode — convert to PNG
@@ -67,7 +67,7 @@ export default async function OpengraphImage({
         }}
       >
         <div style={{ fontSize: 36, letterSpacing: 14, fontWeight: 600 }}>
-          FOLIO
+          VINTATE
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>

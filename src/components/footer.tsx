@@ -67,7 +67,7 @@ export function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col items-start justify-between gap-2 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
-          <p>© {new Date().getFullYear()} FOLIO Studio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} VINTATE. All rights reserved.</p>
           <div className="flex gap-4">
             <Link href="/help#privacy">Privacy</Link>
             <Link href="/help#terms">Terms</Link>

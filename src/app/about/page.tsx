@@ -33,7 +33,7 @@ export default function AboutPage() {
       <section className="relative h-[42vh] min-h-[320px] w-full overflow-hidden bg-muted">
         <Image
           src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=2000&q=80"
-          alt="FOLIO editorial"
+          alt="VINTATE - 1 of 1 Vintage tees"
           fill
           priority
           sizes="100vw"
